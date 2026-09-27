@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source": "gap_current",
+  "category_key": "men-jeans",
+  "category": "Men / Jeans",
+  "category_id": "6998",
+  "department_id": "75",
+  "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+  "collection_scope": "all reported pages, pageSize=200",
+  "started_at": "2026-09-26T04:48:42.627182+00:00",
+  "requests": [
+    {
+      "file": "page.html",
+      "url": "https://www.gap.com/browse/men/jeans?cid=6998",
+      "collected_at": "2026-09-26T04:48:42.889702+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "x-frame-options": "SAMEORIGIN",
+        "mybrand": "gap",
+        "abseg_different": "true",
+        "x-content-type-options": "nosniff",
+        "Link": "</>; rel=preconnect; crossorigin=\"\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3-1rtidkd-9fc.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0jivxa0qaxg83.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2r5n_fsso_9_n.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0bnwycu6q6tll.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2l0g1tyqd3-ds.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/302-kgg_-okef.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0i74wu0w_-p4_.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/25fkh_d2-m1hy.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3r9bgiueume8b.css>; rel=preload; as=\"style\"",
+        "x-envoy-upstream-service-time": "215",
+        "x-upstream-request-path": "/browse/category.do?cid=6998",
+        "x-request-host": "www.gap.com",
+        "x-e-dc": "azeus",
+        "X-Akamai-Transformed": "9 - 0 pmb=mRUM,2",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=0, no-cache, private",
+        "Pragma": "no-cache",
+        "Date": "Sat, 26 Sep 2026 04:48:42 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Server-Timing": "cdn-cache; desc=HIT, edge; dur=41, origin; dur=0, ak_p; desc=\"1790398122680_400065951_345751697_4109_30831_22_33_-\";dur=1",
+        "X-Akam-SW-Version": "0.5.0",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains",
+        "Vary": "Accept-Encoding, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Permissions-Policy": "ch-dpr=(\"https://content.gapinc.com\"),ch-viewport-width=(\"https://content.gapinc.com\"),ch-width=(\"https://content.gapinc.com\")",
+        "Accept-CH": "Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Akamai-GRN": "0.9f85d817.1790398122.149bc091"
+      },
+      "sha256": "d3de6c2c1f18dd7372be61c245baa6e3e7b1c0bc91e54b44367f8b9505a147a0",
+      "bytes": 1009403
+    },
+    {
+      "file": "products.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "collected_at": "2026-09-26T04:48:43.607932+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "26a0912f86d02fc59db2ece0248574d4",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "574",
+        "Server": "istio-envoy",
+        "Content-Length": "80693",
+        "Expires": "Sat, 26 Sep 2026 04:48:43 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Sat, 26 Sep 2026 04:48:43 GMT",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "f449caed6ac31fd34419083b1ebd9374517631597f39b6f28459ac446b4acead",
+      "bytes": 945275,
+      "page_number": 0
+    }
+  ],
+  "status": "complete",
+  "expected_pages": 1
+}

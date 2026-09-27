@@ -1,0 +1,60 @@
+{
+  "metrics_eligible": true,
+  "source_method": "archived_category_api",
+  "historical_scope": "Archived API sample",
+  "category": "Women / T-Shirts & Tanks",
+  "raw_snapshot": "data/raw/wayback/20230716151732-women-tshirts-tanks",
+  "archive_timestamp": "20230716151732",
+  "api_total_colors": "1331",
+  "pagination": {
+    "pageSize": "300",
+    "currentPage": "0",
+    "pageNumberTotal": "5"
+  },
+  "pages_collected": 1,
+  "products_captured": 289,
+  "price_coverage": 1.0,
+  "price_basis_review": {
+    "archive_timestamp": "20230716151732",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "bfa049159d23edd4eb6078c272b4160ac296fc608b3db98c4359f429d965419c",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 289,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230716151732-women-tshirts-tanks/20230716151732-20ce796b.json",
+        "sha256": "bfa049159d23edd4eb6078c272b4160ac296fc608b3db98c4359f429d965419c"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  "comparability": "Price concepts transferred from the directly verified April 2025 archived frontend via the matching legacy API contract. This is a schema-based inference, not capture-specific rendered-price verification. Single archived response; ranking, grouping, inventory, assortment and coverage differ from current collections.",
+  "research_selected": true,
+  "selection": "Monthly representative by price coverage, sample size, then earliest timestamp; repeated exact observed price states omitted."
+}

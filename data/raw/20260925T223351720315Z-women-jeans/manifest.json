@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "source": "gap_current",
+  "category_key": "women-jeans",
+  "category": "Women / Jeans",
+  "category_id": "5664",
+  "department_id": "136",
+  "source_url": "https://www.gap.com/browse/women/jeans?cid=5664",
+  "collection_scope": "all reported pages, pageSize=200",
+  "started_at": "2026-09-25T22:33:51.720315+00:00",
+  "requests": [
+    {
+      "file": "page.html",
+      "url": "https://www.gap.com/browse/women/jeans?cid=5664",
+      "collected_at": "2026-09-25T22:33:52.374321+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "x-frame-options": "SAMEORIGIN",
+        "mybrand": "gap",
+        "abseg_different": "true",
+        "x-content-type-options": "nosniff",
+        "Link": "</>; rel=preconnect; crossorigin=\"\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3-1rtidkd-9fc.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0jivxa0qaxg83.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2r5n_fsso_9_n.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0bnwycu6q6tll.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2l0g1tyqd3-ds.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/302-kgg_-okef.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0i74wu0w_-p4_.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/25fkh_d2-m1hy.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3r9bgiueume8b.css>; rel=preload; as=\"style\"",
+        "x-envoy-upstream-service-time": "281",
+        "x-upstream-request-path": "/browse/category.do?cid=5664&tid=gpmb001887&ai_audience=20260913_SMS_Promo_GapJeansEvent_WomensDenimShoppers_PERSWTA_12PMPT_V1_base&mid=12096099",
+        "x-request-host": "www.gap.com",
+        "x-e-dc": "azeus",
+        "X-Akamai-Transformed": "9 162934 0 pmb=mRUM,2",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=0, no-cache, private",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:33:51 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Server-Timing": "cdn-cache; desc=HIT, edge; dur=25, origin; dur=0, ak_p; desc=\"1790375631791_398664910_3383925697_2508_24023_25_27_-\";dur=1",
+        "X-Akam-SW-Version": "0.5.0",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains",
+        "Vary": "Accept-Encoding, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Permissions-Policy": "ch-dpr=(\"https://content.gapinc.com\"),ch-viewport-width=(\"https://content.gapinc.com\"),ch-width=(\"https://content.gapinc.com\")",
+        "Accept-CH": "Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Akamai-GRN": "0.ce24c317.1790375631.c9b29bc1"
+      },
+      "sha256": "c6c08492376e904f5a62db6eed329af296353bd5028a220daa6d09d265b67905",
+      "bytes": 1024778
+    },
+    {
+      "file": "products.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=5664&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+      "collected_at": "2026-09-25T22:33:53.209827+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "313c7b6a85e7902acc702f6b205f6d8e",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "465",
+        "Server": "istio-envoy",
+        "Expires": "Fri, 25 Sep 2026 22:33:53 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:33:53 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "bced5783f34c49a5b2b19a8256fef9c1e9262ba74cc013ac89d224974c6d2d20",
+      "bytes": 3561703,
+      "page_number": 0
+    },
+    {
+      "file": "products-page-1.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=1&cid=5664&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+      "collected_at": "2026-09-25T22:33:54.085546+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "8c6dd38ceb0f898440a14341e956fab1",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "505",
+        "Server": "istio-envoy",
+        "Expires": "Fri, 25 Sep 2026 22:33:53 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:33:53 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "a783d7feee12257176b164e8273a80ea98297d07735d15b0f92837db7603951b",
+      "bytes": 3636356,
+      "page_number": 1
+    },
+    {
+      "file": "products-page-2.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=2&cid=5664&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+      "collected_at": "2026-09-25T22:33:54.691275+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "46bd4d4df1f4409994d76ca5141c7f8c",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "441",
+        "Server": "istio-envoy",
+        "Content-Length": "57194",
+        "Expires": "Fri, 25 Sep 2026 22:33:54 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:33:54 GMT",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "5ff9492a743f1ba75b9ad9d8ba67bf1fb2323dcba8caa0b038cf4fa3120dae3d",
+      "bytes": 654524,
+      "page_number": 2
+    }
+  ],
+  "status": "complete",
+  "expected_pages": 3
+}

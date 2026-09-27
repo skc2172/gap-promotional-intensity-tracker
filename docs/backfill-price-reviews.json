@@ -1,0 +1,1282 @@
+[
+  {
+    "archive_timestamp": "20240210143119",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5225&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "1fd09783619b65e4cc54ef8ff9da12eb8a8bad4f27ca54dc364e7dfdd72a759a",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 188,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240210143119-men-tshirts/20240210143119-5965a1f8.json",
+        "sha256": "1fd09783619b65e4cc54ef8ff9da12eb8a8bad4f27ca54dc364e7dfdd72a759a"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260402123601",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5225&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&mlink=5643%2CM_DP_VCN_2_TEES_CTA",
+    "sha256": "14a309e3edf94b0b0179af4b723751347e5d944d007f650e734f646007f40d02",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 232,
+    "source_percentage_pairs_checked": 139,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260402123601-men-tshirts/20260402123601-21bc4cec.json",
+        "sha256": "14a309e3edf94b0b0179af4b723751347e5d944d007f650e734f646007f40d02"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260618173139",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "f86e509cc5d4a32e56c7d124a1e96809c90c720243d149c47d1b020f7c88d271",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 164,
+    "source_percentage_pairs_checked": 121,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260618173139-men-tshirts/20260618173139-1df85b14.json",
+        "sha256": "f86e509cc5d4a32e56c7d124a1e96809c90c720243d149c47d1b020f7c88d271"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260625185325",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "d9eee98f094b28fda67135734dac6dba6eec201a2da0087e324e72082bf60b3f",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 186,
+    "source_percentage_pairs_checked": 130,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260625185325-men-tshirts/20260625185325-1df85b14.json",
+        "sha256": "d9eee98f094b28fda67135734dac6dba6eec201a2da0087e324e72082bf60b3f"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260705045619",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "d04e16d488e3060786294afb227b811c02cb94a674939d7f61dbcfe9162bfdf2",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 173,
+    "source_percentage_pairs_checked": 127,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260705045619-men-tshirts/20260705045619-1df85b14.json",
+        "sha256": "d04e16d488e3060786294afb227b811c02cb94a674939d7f61dbcfe9162bfdf2"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260720174014",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "8bf3d609de688fe589714a8f14129d2ad34c1d038ce28d85b9c2f7fc65a13222",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 165,
+    "source_percentage_pairs_checked": 130,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260720174014-men-tshirts/20260720174014-1df85b14.json",
+        "sha256": "8bf3d609de688fe589714a8f14129d2ad34c1d038ce28d85b9c2f7fc65a13222"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260728080531",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "410cd1fc790918e78f14d6114e3deec353999fb9e20f3106ec31894c43bb1093",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 159,
+    "source_percentage_pairs_checked": 122,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260728080531-men-tshirts/20260728080531-1df85b14.json",
+        "sha256": "410cd1fc790918e78f14d6114e3deec353999fb9e20f3106ec31894c43bb1093"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260803154535",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+    "sha256": "f4a2958eff5ee406df0757e29b9d4cbde88e07a2b363fff9c861068596370050",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 153,
+    "source_percentage_pairs_checked": 117,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260803154535-men-tshirts/20260803154535-1df85b14.json",
+        "sha256": "f4a2958eff5ee406df0757e29b9d4cbde88e07a2b363fff9c861068596370050"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240214162139",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "c13da4740cb0f9f9ed33e792b905381a1cfea9f174056e3ee2dfcd301073c88f",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 176,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240214162139-women-jeans/20240214162139-88d74b5b.json",
+        "sha256": "c13da4740cb0f9f9ed33e792b905381a1cfea9f174056e3ee2dfcd301073c88f"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20241001035752",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "f3e386da85c0dccae1d2a0bfcaa5b3f8480db8de11164a1c1c0cdf65fb20cb01",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 179,
+    "source_percentage_pairs_checked": 169,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20241001035752-women-jeans/20241001035752-88d74b5b.json",
+        "sha256": "f3e386da85c0dccae1d2a0bfcaa5b3f8480db8de11164a1c1c0cdf65fb20cb01"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20250411132536",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+    "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 280,
+    "source_percentage_pairs_checked": 227,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20250715155415",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2C1%2CW_DP_VCN_1_JEANS_IMAGE",
+    "sha256": "d0448edaadb351bfb4edddccaa2ac5ada25133258a12929ce1f0ec51bbb29cf3",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 240,
+    "source_percentage_pairs_checked": 239,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20250715155415-women-jeans/20250715155415-5d498c30.json",
+        "sha256": "d0448edaadb351bfb4edddccaa2ac5ada25133258a12929ce1f0ec51bbb29cf3"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260128210143",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5664&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us",
+    "sha256": "1482734aafda91eeee7fbd201f462bd80a52dae5728b97c9e3b39aeefdca7322",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 196,
+    "source_percentage_pairs_checked": 171,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260128210143-women-jeans/20260128210143-5dbef0de.json",
+        "sha256": "1482734aafda91eeee7fbd201f462bd80a52dae5728b97c9e3b39aeefdca7322"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260822132908",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=5664&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+    "sha256": "8d5c94e8fa5e8bb70cb85f49c839f7fbe0ea320fdfb4621dd10346df88148402",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 200,
+    "source_percentage_pairs_checked": 153,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260822132908-women-jeans/20260822132908-c945f1e9.json",
+        "sha256": "8d5c94e8fa5e8bb70cb85f49c839f7fbe0ea320fdfb4621dd10346df88148402"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20230716151732",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "bfa049159d23edd4eb6078c272b4160ac296fc608b3db98c4359f429d965419c",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 289,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230716151732-women-tshirts-tanks/20230716151732-20ce796b.json",
+        "sha256": "bfa049159d23edd4eb6078c272b4160ac296fc608b3db98c4359f429d965419c"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20230815010430",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "333ac6aa62c0c0c4205b2b9a6f171e06919ac36ced446baf9033a5b0e133f6fe",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 300,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230815010430-women-tshirts-tanks/20230815010430-20ce796b.json",
+        "sha256": "333ac6aa62c0c0c4205b2b9a6f171e06919ac36ced446baf9033a5b0e133f6fe"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20230819220058",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "37619c60f70979972ae04d006c7cd42af7603ac0247c87a499f53d5dd240e440",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 300,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230819220058-women-tshirts-tanks/20230819220058-20ce796b.json",
+        "sha256": "37619c60f70979972ae04d006c7cd42af7603ac0247c87a499f53d5dd240e440"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240115062523",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "0fc6f4ddf919687df66d5d96e3d29b8ff0e417d01f7efe64f89549e6e09cc618",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 300,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240115062523-women-tshirts-tanks/20240115062523-20ce796b.json",
+        "sha256": "0fc6f4ddf919687df66d5d96e3d29b8ff0e417d01f7efe64f89549e6e09cc618"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240323023504",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "7f2a4febda2d72da306a8c819ce4358a3cdd9b4603cacc73749aff3d6956bd32",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 300,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240323023504-women-tshirts-tanks/20240323023504-20ce796b.json",
+        "sha256": "7f2a4febda2d72da306a8c819ce4358a3cdd9b4603cacc73749aff3d6956bd32"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240421222117",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=17076&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&vendor=Certona",
+    "sha256": "ffa070204eff9217d1dfc5a24aff240420276f8e78206f26c0b31b4b8c66320f",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 221,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240421222117-women-tshirts-tanks/20240421222117-20ce796b.json",
+        "sha256": "ffa070204eff9217d1dfc5a24aff240420276f8e78206f26c0b31b4b8c66320f"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260705045943",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=17076&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+    "sha256": "2a4020bc2cd7c9e7e33a2f5611dff9c7deceb8cb5cdb7b61af34a2222d38750f",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 200,
+    "source_percentage_pairs_checked": 167,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260705045943-women-tshirts-tanks/20260705045943-bc038828.json",
+        "sha256": "2a4020bc2cd7c9e7e33a2f5611dff9c7deceb8cb5cdb7b61af34a2222d38750f"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260823023530",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=17076&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+    "sha256": "b21ea8bdb9d68febfbd2fb00e5a0b0a2ceb0dd598a215bebb9b96655dfde0502",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 200,
+    "source_percentage_pairs_checked": 125,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260823023530-women-tshirts-tanks/20260823023530-bc038828.json",
+        "sha256": "b21ea8bdb9d68febfbd2fb00e5a0b0a2ceb0dd598a215bebb9b96655dfde0502"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20230817001649",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "9cd308daf567a2ba3a868e8542242d484a3dc97ec300c1d90bb8aa7e7cf10983",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 135,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230817001649-men-jeans/20230817001649-2d1e2882.json",
+        "sha256": "9cd308daf567a2ba3a868e8542242d484a3dc97ec300c1d90bb8aa7e7cf10983"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20230820070918",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "664644bb35f358667954009938163d1263687dc30000d6754dcf1e45f2dc6337",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 113,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20230820070918-men-jeans/20230820070918-2d1e2882.json",
+        "sha256": "664644bb35f358667954009938163d1263687dc30000d6754dcf1e45f2dc6337"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20231016131918",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "35d9c97bf34c7f215e4fd50eb655041ce8eab4d2af971361ae9e1258bd4e7db6",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 98,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20231016131918-men-jeans/20231016131918-2d1e2882.json",
+        "sha256": "35d9c97bf34c7f215e4fd50eb655041ce8eab4d2af971361ae9e1258bd4e7db6"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20231120033036",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "fe7a806cdf189848e2402b96d18c74f88bc05f098bd028292935887dc5a67d77",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 84,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20231120033036-men-jeans/20231120033036-2d1e2882.json",
+        "sha256": "fe7a806cdf189848e2402b96d18c74f88bc05f098bd028292935887dc5a67d77"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240405183914",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "a5238bf4e911678472584338a7ee260deb46bf879eae6d1eda2e0f6100d13509",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 96,
+    "source_percentage_pairs_checked": 0,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240405183914-men-jeans/20240405183914-2d1e2882.json",
+        "sha256": "a5238bf4e911678472584338a7ee260deb46bf879eae6d1eda2e0f6100d13509"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240514033138",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&enableDynamicFacets=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "b6cce9fd202c9d09ec245efc93570576c39ea950945039adc67ae176348d0401",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 91,
+    "source_percentage_pairs_checked": 24,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240514033138-men-jeans/20240514033138-245c2c0e.json",
+        "sha256": "b6cce9fd202c9d09ec245efc93570576c39ea950945039adc67ae176348d0401"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240514033317",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&vendor=Certona",
+    "sha256": "5822bcfbede69d3756cb80f908d8ee8f8ee7169efcf696dbf58b1afb114bc01a",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 91,
+    "source_percentage_pairs_checked": 24,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240514033317-men-jeans/20240514033317-2d1e2882.json",
+        "sha256": "5822bcfbede69d3756cb80f908d8ee8f8ee7169efcf696dbf58b1afb114bc01a"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20240916144208",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&mlink=5063%2C20012082%2CDP_DD_1_Men_Jeans",
+    "sha256": "4077765b0125006ca0c32bb9bb47a5c841b3d0dd245b56f2a1b02a53741f1771",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 99,
+    "source_percentage_pairs_checked": 83,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20240916144208-men-jeans/20240916144208-43f1094c.json",
+        "sha256": "4077765b0125006ca0c32bb9bb47a5c841b3d0dd245b56f2a1b02a53741f1771"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20250204192832",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=6998&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=75&mlink=5063%2CDP_VCN_2_M_SP246076_IMAGE",
+    "sha256": "dc0dffd4834ff625666cd03e9bb7000faf3fdf17db7580828f50d3d352d43c41",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 124,
+    "source_percentage_pairs_checked": 124,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20250204192832-men-jeans/20250204192832-0f87e267.json",
+        "sha256": "dc0dffd4834ff625666cd03e9bb7000faf3fdf17db7580828f50d3d352d43c41"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  },
+  {
+    "archive_timestamp": "20260219213938",
+    "source_url": "https://api.gap.com/commerce/search/products/v2/cc?pageSize=200&pageNumber=0&ignoreInventory=false&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us",
+    "sha256": "a88601f759e8171e28b45c24223beec21bcc529fdb881313286fd61183dcd1ce",
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "review_method": "API-contract/schema comparison with archived frontend mapping; not per-capture rendered verification",
+    "rationale": "Same archived /commerce/search/products/v2/cc endpoint and US product/styleColors/category ccList contract as the directly verified April 2025 capture. regularPrice/effectivePrice are present on the actual color records and valid price pairs. Transfer of displayed-price meaning across this API family is an explicit schema-based comparability inference; not proof of identical rendering, assortment, promotion eligibility or checkout price at each date.",
+    "observations": 109,
+    "source_percentage_pairs_checked": 103,
+    "source_percentage_disagreements_over_one_point": 0,
+    "limitations": [
+      "No capture-specific rendered-price confirmation outside the April 2025 reference.",
+      "Single page archived sample; not current all-page collection.",
+      "Reference/current price concepts assumed stable within the observed API contract; review inference must remain visible."
+    ],
+    "evidence": [
+      {
+        "file": "data/raw/wayback/20260219213938-men-jeans/20260219213938-41fe50d2.json",
+        "sha256": "a88601f759e8171e28b45c24223beec21bcc529fdb881313286fd61183dcd1ce"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132536-products.json",
+        "sha256": "ed0e037b95c5c4a93eacefc961370cf3fd9d2f18988b7d6d33b2e0d83e7d9295",
+        "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:36 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132530-category.html",
+        "sha256": "c4772f4c9c9720a46e56010164da026d37dade786b3516196983f1c598832497",
+        "archive_url": "https://web.archive.org/web/20250411132530id_/https://www.gap.com/browse/women/jeans?cid=5664&cookieInitializationAttempted=true",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:30 GMT"
+      },
+      {
+        "file": "data/raw/wayback/2025-03/20250411132528-96424.836baa.a046e.js",
+        "sha256": "7d65b92e1e869221f7cbcc265627610916248ee85d4514035d6ac708fefae3a8",
+        "archive_url": "https://web.archive.org/web/20250411132528id_/https://www.gap.com/static_content/onesitecategory/components/mfe/_next/static/chunks/96424.836baa.a046e.js",
+        "memento_datetime": "Fri, 11 Apr 2025 13:25:28 GMT"
+      }
+    ]
+  }
+]

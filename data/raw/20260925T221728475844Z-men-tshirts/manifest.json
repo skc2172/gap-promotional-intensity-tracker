@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "source": "gap_current",
+  "category_key": "men-tshirts",
+  "category": "Men / T-Shirts",
+  "category_id": "5225",
+  "department_id": "75",
+  "source_url": "https://www.gap.com/browse/men/t-shirts?cid=5225",
+  "collection_scope": "first response, pageSize=200, pageNumber=0",
+  "started_at": "2026-09-25T22:17:28.475844+00:00",
+  "requests": [
+    {
+      "file": "page.html",
+      "url": "https://www.gap.com/browse/men/t-shirts?cid=5225",
+      "collected_at": "2026-09-25T22:17:28.715065+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "x-frame-options": "SAMEORIGIN",
+        "mybrand": "gap",
+        "abseg_different": "true",
+        "x-content-type-options": "nosniff",
+        "Link": "</>; rel=preconnect; crossorigin=\"\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3-1rtidkd-9fc.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0jivxa0qaxg83.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2r5n_fsso_9_n.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0bnwycu6q6tll.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2l0g1tyqd3-ds.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/302-kgg_-okef.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0i74wu0w_-p4_.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/25fkh_d2-m1hy.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3r9bgiueume8b.css>; rel=preload; as=\"style\"",
+        "x-envoy-upstream-service-time": "207",
+        "x-upstream-request-path": "/browse/category.do?cid=5225&nav=meganav%3AMen%3ACategories%3AT-Shirts",
+        "x-request-host": "www.gap.com",
+        "x-e-dc": "azeus",
+        "X-Akamai-Transformed": "9 161767 0 pmb=mRUM,2",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=0, no-cache, private",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:17:28 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Server-Timing": "cdn-cache; desc=HIT, edge; dur=33, ak_p; desc=\"1790374648527_389060404_584602087_3310_31466_17_22_-\";dur=1",
+        "X-Akam-SW-Version": "0.5.0",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains",
+        "Vary": "Accept-Encoding, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Permissions-Policy": "ch-dpr=(\"https://content.gapinc.com\"),ch-viewport-width=(\"https://content.gapinc.com\"),ch-width=(\"https://content.gapinc.com\")",
+        "Accept-CH": "Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Akamai-GRN": "0.34973017.1790374648.22d851e7"
+      },
+      "sha256": "5ad6d3b69fa1d2d6fa8ede4e6ce9d8b32d67a42a993982cf64f4b32aa601479b",
+      "bytes": 1000624
+    },
+    {
+      "file": "products.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "collected_at": "2026-09-25T22:17:29.406485+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "d565b0b2f41f279660ece241f94386a9",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "522",
+        "Server": "istio-envoy",
+        "Expires": "Fri, 25 Sep 2026 22:17:29 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:17:29 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "1a11d984c205feef9eb019549abf5c97cf42b4dc50b70c681b953a92e8a302ba",
+      "bytes": 1799299
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "source": "gap_current",
+  "category_key": "men-tshirts",
+  "category": "Men / T-Shirts",
+  "category_id": "5225",
+  "department_id": "75",
+  "source_url": "https://www.gap.com/browse/men/t-shirts?cid=5225",
+  "collection_scope": "all reported pages, pageSize=200",
+  "started_at": "2026-09-26T04:48:43.635887+00:00",
+  "requests": [
+    {
+      "file": "page.html",
+      "url": "https://www.gap.com/browse/men/t-shirts?cid=5225",
+      "collected_at": "2026-09-26T04:48:43.847640+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "x-frame-options": "SAMEORIGIN",
+        "mybrand": "gap",
+        "abseg_brand": "gap",
+        "abseg_different": "false",
+        "x-content-type-options": "nosniff",
+        "Link": "</>; rel=preconnect; crossorigin=\"\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3-1rtidkd-9fc.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0jivxa0qaxg83.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2r5n_fsso_9_n.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0bnwycu6q6tll.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2l0g1tyqd3-ds.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/302-kgg_-okef.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0i74wu0w_-p4_.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/25fkh_d2-m1hy.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3r9bgiueume8b.css>; rel=preload; as=\"style\"",
+        "x-envoy-upstream-service-time": "241",
+        "x-upstream-request-path": "/browse/category.do?cid=5225&nav=meganav%3AMen%3ACategories%3AT-Shirts",
+        "x-request-host": "www.gap.com",
+        "x-e-dc": "azeus",
+        "X-Akamai-Transformed": "9 162078 0 pmb=mRUM,2",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=0, no-cache, private",
+        "Pragma": "no-cache",
+        "Date": "Sat, 26 Sep 2026 04:48:43 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Server-Timing": "cdn-cache; desc=HIT, edge; dur=24, origin; dur=0, ak_p; desc=\"1790398123689_400065958_20429208_2383_22295_21_39_-\";dur=1",
+        "X-Akam-SW-Version": "0.5.0",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains",
+        "Vary": "Accept-Encoding, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Permissions-Policy": "ch-dpr=(\"https://content.gapinc.com\"),ch-viewport-width=(\"https://content.gapinc.com\"),ch-width=(\"https://content.gapinc.com\")",
+        "Accept-CH": "Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Akamai-GRN": "0.a685d817.1790398123.137b998"
+      },
+      "sha256": "a63f931976803b3701fc1920dbb1bc9eef9c5ffe4e8e80f8f81aa4a4e2e4c76b",
+      "bytes": 1002445
+    },
+    {
+      "file": "products.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "collected_at": "2026-09-26T04:48:44.500076+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "64001d26ee96e06b1dc52cfa2a22726a",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "465",
+        "Server": "istio-envoy",
+        "Expires": "Sat, 26 Sep 2026 04:48:44 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Sat, 26 Sep 2026 04:48:44 GMT",
+        "Content-Length": "148210",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "6b30337031dd03f53003a85e2dc46b68c257388133f611b1e7d43b406c6e6388",
+      "bytes": 1799277,
+      "page_number": 0
+    },
+    {
+      "file": "products-page-1.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=1&cid=5225&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "collected_at": "2026-09-26T04:48:44.903729+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "65777f3bc56d38411a8e52e079478223",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "225",
+        "Server": "istio-envoy",
+        "Content-Length": "60958",
+        "Expires": "Sat, 26 Sep 2026 04:48:44 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Sat, 26 Sep 2026 04:48:44 GMT",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "6ef4ce0d78616a822d0216a96c316cdbfd1b26968206e7ea0846b0860481f07b",
+      "bytes": 741584,
+      "page_number": 1
+    }
+  ],
+  "status": "complete",
+  "expected_pages": 2
+}

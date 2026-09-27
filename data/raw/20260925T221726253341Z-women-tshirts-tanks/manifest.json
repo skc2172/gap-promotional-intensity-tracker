@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "source": "gap_current",
+  "category_key": "women-tshirts-tanks",
+  "category": "Women / T-Shirts & Tanks",
+  "category_id": "17076",
+  "department_id": "136",
+  "source_url": "https://www.gap.com/browse/women/t-shirts-and-tanks?cid=17076",
+  "collection_scope": "first response, pageSize=200, pageNumber=0",
+  "started_at": "2026-09-25T22:17:26.253341+00:00",
+  "requests": [
+    {
+      "file": "page.html",
+      "url": "https://www.gap.com/browse/women/t-shirts-and-tanks?cid=17076",
+      "collected_at": "2026-09-25T22:17:26.476840+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive"
+      },
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Security-Policy": "frame-ancestors 'self';",
+        "x-frame-options": "SAMEORIGIN",
+        "mybrand": "gap",
+        "abseg_different": "true",
+        "x-content-type-options": "nosniff",
+        "Link": "</>; rel=preconnect; crossorigin=\"\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3-1rtidkd-9fc.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0jivxa0qaxg83.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2r5n_fsso_9_n.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0bnwycu6q6tll.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/2l0g1tyqd3-ds.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/302-kgg_-okef.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/0i74wu0w_-p4_.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/25fkh_d2-m1hy.css>; rel=preload; as=\"style\", </static_content/onesitecategory/components/mfe/_next/static/chunks/3r9bgiueume8b.css>; rel=preload; as=\"style\"",
+        "x-envoy-upstream-service-time": "325",
+        "x-upstream-request-path": "/browse/category.do?cid=17076&nav=meganav%3AWomen%3ACategories%3AT-Shirts+%26+Tanks",
+        "x-request-host": "www.gap.com",
+        "x-e-dc": "azeus",
+        "X-Akamai-Transformed": "9 162966 0 pmb=mRUM,2",
+        "Content-Encoding": "gzip",
+        "Cache-Control": "max-age=0, no-cache, private",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:17:26 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Server-Timing": "cdn-cache; desc=HIT, edge; dur=35, origin; dur=0, ak_p; desc=\"1790374646287_389060401_64576475_3439_29576_15_32_-\";dur=1",
+        "X-Akam-SW-Version": "0.5.0",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains",
+        "Vary": "Accept-Encoding, Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Permissions-Policy": "ch-dpr=(\"https://content.gapinc.com\"),ch-viewport-width=(\"https://content.gapinc.com\"),ch-width=(\"https://content.gapinc.com\")",
+        "Accept-CH": "Sec-CH-DPR, Sec-CH-Viewport-Width, Sec-CH-Width",
+        "Akamai-GRN": "0.31973017.1790374646.3d95bdb"
+      },
+      "sha256": "ac863c072e3ac5ba3331cb9539dc310dc6a0b42852ac24f164cabfd4f9eab2ca",
+      "bytes": 1016120
+    },
+    {
+      "file": "products.json",
+      "url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=17076&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=136",
+      "collected_at": "2026-09-25T22:17:27.627286+00:00",
+      "status_code": 200,
+      "request_headers": {
+        "User-Agent": "python-requests/2.34.2",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "x-client-application-name": "Browse",
+        "X-Customer-Segment": "non-cardholder"
+      },
+      "response_headers": {
+        "Content-Type": "application/json",
+        "x-b3-traceid": "db3ebbbd52f5e95831ccda3f8129822a",
+        "Vary": "accept-encoding",
+        "Content-Encoding": "gzip",
+        "x-envoy-upstream-service-time": "880",
+        "Server": "istio-envoy",
+        "Expires": "Fri, 25 Sep 2026 22:17:27 GMT",
+        "Cache-Control": "max-age=0, no-cache, no-store",
+        "Pragma": "no-cache",
+        "Date": "Fri, 25 Sep 2026 22:17:27 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive, Transfer-Encoding",
+        "Strict-Transport-Security": "max-age=2628000 ; includeSubDomains"
+      },
+      "sha256": "66aefd657ada3e16ba67427dd9eabbf19f6cfa802d7a8a2f734e28dea670a5ce",
+      "bytes": 2800971
+    }
+  ],
+  "status": "complete"
+}

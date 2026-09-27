@@ -1,0 +1,255 @@
+{
+  "requested_target_period": "2025-03",
+  "target_anchor_utc": "2025-03-15T12:00:00Z",
+  "search_bounds": {
+    "from": "20250129",
+    "to": "20250429"
+  },
+  "candidate_count": 28,
+  "nearest_checked_archive_timestamp": "20250315183717",
+  "usable_archive_timestamp": "20250411132536",
+  "archived_api_candidates": 3,
+  "attempts": [
+    {
+      "provenance": {
+        "raw_file": "data/raw/wayback-discovery/2025-03/page.html",
+        "archive_url": "https://web.archive.org/web/20250315183717id_/https://www.gap.com/browse/women/jeans?cid=5664",
+        "actual_archive_timestamp": "20250315183717",
+        "retrieved_at": "2026-09-25T15:19:43.398527+00:00",
+        "sha256": "fc72d285804139b6d2e619c88a40a62fec82d71fc832adf82c1a06bb0ec822db",
+        "requested_target_period": "2025-03"
+      },
+      "inspection_status": "category_shell_no_product_data",
+      "category_identity_verified": true,
+      "title": "Women's Jeans | Gap",
+      "structure": {
+        "next_flight_chunks": 158,
+        "json_ld_types": [
+          "BreadcrumbList",
+          "ListItem"
+        ],
+        "product_links": 0,
+        "product_cards": 0,
+        "numeric_price_fields": 0,
+        "product_skeletons": 0
+      },
+      "page_promo_evidence": [
+        {
+          "scope": "page_header",
+          "text": "cardmembers: extra 10% off with a gap inc. credit card. code FAMILY",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "cardmembers: extra 10% off with a gap inc. credit card. code FAMILY",
+          "tag": "img",
+          "attribute": "alt"
+        },
+        {
+          "scope": "page_header",
+          "text": "+ 'bonus 20% off your first purchase with your new card. apply now exclusions apply. ends 3/19.",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "friends & family event 40% off everything + 50% off dresses excludes select collaborations.",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "friends & family event 40% off everything + 50% off dresses excludes select collaborations.",
+          "tag": "img",
+          "attribute": "alt"
+        }
+      ],
+      "product_endpoint_referenced": "https://api.gap.com/commerce/search/products/v2/cc",
+      "product_parsing_success": false,
+      "product_observations_extracted": 0,
+      "observations": [],
+      "reference_price_coverage": null,
+      "current_price_coverage": null,
+      "missing_price_rate": null,
+      "product_promo_coverage": null,
+      "observation_unit": null,
+      "price_basis": null,
+      "metrics_eligible": false,
+      "comparability": "Not established: no supported archived product-price observations; no historical metrics emitted."
+    },
+    {
+      "provenance": {
+        "raw_file": "data/raw/wayback/2025-03/20250322072001-8fb003bd.html",
+        "archive_url": "https://web.archive.org/web/20250322072001id_/https://www.gap.com/browse/women/jeans?cid=5664&cl=true&nav=smartlink%3AWomen%3A%3ADenim+Edit",
+        "actual_archive_timestamp": "20250322072001",
+        "retrieved_at": "2026-09-25T21:44:24.265442+00:00",
+        "sha256": "1625ee4243d7f42b4ac3cacdc3d0e2d4c400a03d5d00ca178b564b3ed0a3e43b",
+        "requested_target_period": "2025-03"
+      },
+      "inspection_status": "category_shell_no_product_data",
+      "category_identity_verified": true,
+      "title": "Women's Jeans | Gap",
+      "structure": {
+        "next_flight_chunks": 155,
+        "json_ld_types": [
+          "BreadcrumbList",
+          "ListItem"
+        ],
+        "product_links": 0,
+        "product_cards": 0,
+        "numeric_price_fields": 0,
+        "product_skeletons": 0
+      },
+      "page_promo_evidence": [
+        {
+          "scope": "page_header",
+          "text": "extra 25% off your first purchase with your new card. ends 3/26. apply now",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "extra 25% off your first purchase with your new card. ends 3/26. apply now",
+          "tag": "img",
+          "attribute": "alt"
+        },
+        {
+          "scope": "page_header",
+          "text": "60% off limited-time deals select styles.",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "60% off limited-time deals select styles.",
+          "tag": "img",
+          "attribute": "alt"
+        }
+      ],
+      "product_endpoint_referenced": "https://api.gap.com/commerce/search/products/v2/cc",
+      "product_parsing_success": false,
+      "product_observations_extracted": 0,
+      "observations": [],
+      "reference_price_coverage": null,
+      "current_price_coverage": null,
+      "missing_price_rate": null,
+      "product_promo_coverage": null,
+      "observation_unit": null,
+      "price_basis": null,
+      "metrics_eligible": false,
+      "comparability": "Not established: no supported archived product-price observations; no historical metrics emitted."
+    },
+    {
+      "provenance": {
+        "raw_file": "data/raw/wayback/2025-03/20250323085515-628d917f.html",
+        "archive_url": "https://web.archive.org/web/20250323085515id_/https://www.gap.com/browse/women/jeans?cid=5664&nav=expmore%3Awomen%3Acategories%3Ajeans%23pageId%3D0&department=136",
+        "actual_archive_timestamp": "20250323085515",
+        "retrieved_at": "2026-09-25T21:44:25.138886+00:00",
+        "sha256": "b4dd75b72401675aa00117d29770790c2d2a9bb6aa7575384cde3e8620d8f244",
+        "requested_target_period": "2025-03"
+      },
+      "inspection_status": "category_shell_no_product_data",
+      "category_identity_verified": true,
+      "title": "Women's Jeans | Gap",
+      "structure": {
+        "next_flight_chunks": 155,
+        "json_ld_types": [
+          "BreadcrumbList",
+          "ListItem"
+        ],
+        "product_links": 0,
+        "product_cards": 0,
+        "numeric_price_fields": 0,
+        "product_skeletons": 0
+      },
+      "page_promo_evidence": [
+        {
+          "scope": "page_header",
+          "text": "extra 25% off your first purchase with your new card. ends 3/26. apply now",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "extra 25% off your first purchase with your new card. ends 3/26. apply now",
+          "tag": "img",
+          "attribute": "alt"
+        },
+        {
+          "scope": "page_header",
+          "text": "60% off limited-time deals select styles.",
+          "tag": "a",
+          "attribute": "title"
+        },
+        {
+          "scope": "page_header",
+          "text": "60% off limited-time deals select styles.",
+          "tag": "img",
+          "attribute": "alt"
+        }
+      ],
+      "product_endpoint_referenced": "https://api.gap.com/commerce/search/products/v2/cc",
+      "product_parsing_success": false,
+      "product_observations_extracted": 0,
+      "observations": [],
+      "reference_price_coverage": null,
+      "current_price_coverage": null,
+      "missing_price_rate": null,
+      "product_promo_coverage": null,
+      "observation_unit": null,
+      "price_basis": null,
+      "metrics_eligible": false,
+      "comparability": "Not established: no supported archived product-price observations; no historical metrics emitted."
+    }
+  ],
+  "api_attempts": [
+    {
+      "archive_timestamp": "20250411132536",
+      "archive_url": "https://web.archive.org/web/20250411132536id_/https://api.gap.com/commerce/search/products/v2/cc?brand=gap&market=us&cid=5664&locale=en_US&pageSize=300&ignoreInventory=false&includeMarketingFlagsDetails=true&pageNumber=0&department=136&mlink=5643%2CW_DP_VCN_1_JEANS_IMAGE&vendor=Certona",
+      "raw_file": "data/raw/wayback/2025-03/20250411132536-products.json",
+      "status": "parsed_price_basis_verified",
+      "product_observations_extracted": 280,
+      "unique_styles": 93,
+      "api_total_colors": "280",
+      "pagination": {
+        "pageSize": "300",
+        "currentPage": "0",
+        "pageNumberTotal": "1"
+      },
+      "personalized_sort": {
+        "personalizedSortRecommenderRequest": "true",
+        "sortRecommenderResponsePersonalized": "true"
+      },
+      "missing": {
+        "product_name": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "original_price": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "current_price": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "promo_text": {
+          "count": 1,
+          "rate": 0.0035714285714285713
+        }
+      },
+      "reference_price_coverage": 1.0,
+      "current_price_coverage": 1.0,
+      "product_parsing_success": true,
+      "metrics_eligible": true
+    }
+  ],
+  "normalized_product_observations": 280,
+  "product_data_alternative_timestamp": "20250411132536",
+  "status": "dated_alternative_price_metrics_available",
+  "metrics_eligible": true,
+  "search_limit": "At most three nearest distinct category HTML bodies, plus archived index of the product endpoint named by those pages. Not an exhaustive archive search.",
+  "price_basis_review": "docs/historical-price-basis.json",
+  "comparability": "Price concepts and product-color unit supported; date, assortment, coverage, ranking, and offer eligibility differ. Not a matched-panel trend."
+}

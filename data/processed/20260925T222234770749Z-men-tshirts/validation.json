@@ -1,0 +1,83 @@
+{
+  "raw_snapshot": "data/raw/20260925T222234770749Z-men-tshirts",
+  "parser_version": 4,
+  "schema_version": 2,
+  "observation_unit": "listed product-color ID; not unique style or size SKU",
+  "products_captured": 252,
+  "unique_styles": 87,
+  "category": "Men / T-Shirts",
+  "category_id": "5225",
+  "department_id": "75",
+  "price_coverage": 1.0,
+  "api_total_colors": "260",
+  "pagination": {
+    "pageSize": "200",
+    "currentPage": "0",
+    "pageNumberTotal": "2"
+  },
+  "response_personalized": true,
+  "pages_collected": 2,
+  "pages": [
+    {
+      "file": "products.json",
+      "listed_observations": 195,
+      "api_total_colors": "260",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "0",
+        "pageNumberTotal": "2"
+      }
+    },
+    {
+      "file": "products-page-1.json",
+      "listed_observations": 58,
+      "api_total_colors": "260",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "1",
+        "pageNumberTotal": "2"
+      }
+    }
+  ],
+  "duplicates_removed": 1,
+  "duplicates": [
+    {
+      "style_id": "907263",
+      "product_id": "907263162",
+      "first_file": "products.json",
+      "duplicate_file": "products-page-1.json",
+      "changed_fields": []
+    }
+  ],
+  "api_totals_by_page": [
+    "260",
+    "260"
+  ],
+  "api_total_changed_during_collection": false,
+  "api_total_minus_collected": 8,
+  "missing": {
+    "product_name": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "original_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "current_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "promo_text": {
+      "count": 91,
+      "rate": 0.3611111111111111
+    }
+  },
+  "limitations": [
+    "All reported pages collected; API total may differ from listed unique observations",
+    "Additional swatch records excluded unless listed in categories[].ccList",
+    "Prices are advertised category prices, not verified checkout prices",
+    "Offer text is not applied to prices; missing flags do not prove no offer",
+    "USD derives from the fixed US collection context"
+  ]
+}

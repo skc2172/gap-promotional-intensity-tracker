@@ -1,0 +1,4648 @@
+[
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915238002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915238002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/10",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "455514002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=455514002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/2",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915246002",
+    "style_id": "915246",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915246002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/13/styleColors/0",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "514098002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=514098002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/1",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "914574002",
+    "style_id": "524246",
+    "product_name": "Baggy Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=914574002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/4",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Matching set",
+          "position": "4"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "796684002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=796684002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/3",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "888476002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=888476002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/7",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "786895002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=786895002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "888474002",
+    "style_id": "888474",
+    "product_name": "Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=888474002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/25/styleColors/0",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "455517002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=455517002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709153002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709153002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "809092002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=809092002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/5",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "624545002",
+    "style_id": "586614",
+    "product_name": "Extra Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=624545002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/15/styleColors/3",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "781289002",
+    "style_id": "781290",
+    "product_name": "Relaxed Straight Trouser Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=781289002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/21/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "786909002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=786909002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/3",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "834783002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "27.0",
+    "discount_pct": "61.4010",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=834783002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/4",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "805764002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=805764002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/5",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "871867002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "27.0",
+    "discount_pct": "61.4010",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=871867002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/6",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "805765002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=805765002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/10",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "673715002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=673715002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/11",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "908650002",
+    "style_id": "823045",
+    "product_name": "Canvas Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=908650002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/12",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Matching set",
+          "position": "4"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "908651002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=908651002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/0",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "914575002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=914575002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/9",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "906989002",
+    "style_id": "586614",
+    "product_name": "Extra Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "71.0",
+    "discount_pct": "21.0673",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=906989002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/15/styleColors/5",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "706174002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "34.0",
+    "discount_pct": "51.3939",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=706174002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/0",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915244002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915244002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/9",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "796680002",
+    "style_id": "823045",
+    "product_name": "Heavyweight Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=796680002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "645442002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=645442002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/10",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "763248002",
+    "style_id": "763248",
+    "product_name": "Loose Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=763248002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/7/styleColors/3",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "888474012",
+    "style_id": "888474",
+    "product_name": "Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=888474012",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/25/styleColors/1",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "887075002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=887075002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/6",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "605405042",
+    "style_id": "605405",
+    "product_name": "Straight City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=605405042",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/10/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915242002",
+    "style_id": "524246",
+    "product_name": "Baggy Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "71.0",
+    "discount_pct": "21.0673",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915242002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/5",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Matching set",
+          "position": "4"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709193002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709193002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "1184127002",
+    "style_id": "1184129",
+    "product_name": "Relaxed Taper Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=1184127002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/20/styleColors/0",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915239002",
+    "style_id": "524246",
+    "product_name": "Baggy Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "99.95",
+    "current_price": "79.0",
+    "discount_pct": "20.9605",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915239002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/8",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Matching set",
+          "position": "4"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709148002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709148002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "BEST_SELLER",
+          "content": "Best seller",
+          "position": "6"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "524246002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=524246002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/0",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889860002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889860002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/7",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "624552002",
+    "style_id": "586614",
+    "product_name": "Extra Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=624552002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/15/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "903889002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=903889002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/4",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "763230002",
+    "style_id": "763248",
+    "product_name": "Loose Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=763230002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/7/styleColors/0",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "907382002",
+    "style_id": "763248",
+    "product_name": "Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "71.0",
+    "discount_pct": "21.0673",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=907382002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/7/styleColors/4",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "NEW_ARRIVAL",
+          "content": "New",
+          "position": "5"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "914577002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=914577002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/8",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "729595002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "34.0",
+    "discount_pct": "51.3939",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=729595002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/5",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889863002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "71.0",
+    "discount_pct": "21.0673",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889863002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/9",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "899418002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=899418002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "888466002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "71.0",
+    "discount_pct": "21.0673",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=888466002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/11",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "899417002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=899417002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "621916002",
+    "style_id": "586614",
+    "product_name": "Extra Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=621916002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/15/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "876543042",
+    "style_id": "876543",
+    "product_name": "Slim City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=876543042",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/1/styleColors/3",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709140002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709140002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/3",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "597498002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=597498002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/7",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "909802002",
+    "style_id": "909802",
+    "product_name": "Baggy Barrel Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "44.0",
+    "discount_pct": "51.0839",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=909802002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/9/styleColors/0",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "887827002",
+    "style_id": "887827",
+    "product_name": "UltraSoft Baggy Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "35.0",
+    "discount_pct": "61.0895",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=887827002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/14/styleColors/1",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "1184126002",
+    "style_id": "1184129",
+    "product_name": "Relaxed Taper Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=1184126002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/20/styleColors/1",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "819620002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=819620002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/6",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "907181002",
+    "style_id": "763248",
+    "product_name": "Loose Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=907181002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/7/styleColors/2",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889852002",
+    "style_id": "586614",
+    "product_name": "Extra Baggy Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "35.0",
+    "discount_pct": "61.0895",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889852002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/15/styleColors/0",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "781290002",
+    "style_id": "781290",
+    "product_name": "Relaxed Straight Trouser Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=781290002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/21/styleColors/2",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "502315002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=502315002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/3",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "914573002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=914573002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/8",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "803950002",
+    "style_id": "803950",
+    "product_name": "Plaid Canvas Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "64.99",
+    "discount_pct": "27.7487",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=803950002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/19/styleColors/0",
+    "source_percentage_off": "28",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "915243002",
+    "style_id": "524246",
+    "product_name": "Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=915243002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/6/styleColors/6",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889861002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889861002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/6",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "907180002",
+    "style_id": "763248",
+    "product_name": "Loose Boot Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=907180002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/7/styleColors/1",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "1184129002",
+    "style_id": "1184129",
+    "product_name": "Relaxed Taper Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=1184129002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/20/styleColors/2",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "887832002",
+    "style_id": "887827",
+    "product_name": "UltraSoft Baggy Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "35.0",
+    "discount_pct": "61.0895",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=887832002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/14/styleColors/0",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Static",
+          "id": null,
+          "content": "Selling fast",
+          "position": "7"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889862002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "59.99",
+    "discount_pct": "24.9656",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889862002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/8",
+    "source_percentage_off": "25",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "819578002",
+    "style_id": "819602",
+    "product_name": "Skinny Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=819578002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/12/styleColors/3",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "887073002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Double-Knee Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "35.0",
+    "discount_pct": "61.0895",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=887073002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/5",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "876543002",
+    "style_id": "876543",
+    "product_name": "Slim City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=876543002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/1/styleColors/2",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "881138002",
+    "style_id": "881122",
+    "product_name": "Slim Selvedge Jeans",
+    "category": "Men / Jeans",
+    "original_price": "99.0",
+    "current_price": "39.0",
+    "discount_pct": "60.6061",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=881138002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/16/styleColors/0",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "1184128002",
+    "style_id": "1184129",
+    "product_name": "Relaxed Taper Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=1184128002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/20/styleColors/3",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "855068012",
+    "style_id": "855068",
+    "product_name": "Corduroy Relaxed Straight Pants",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "39.97",
+    "discount_pct": "55.5642",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=855068012",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/0/styleColors/0",
+    "source_percentage_off": "56",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "781299002",
+    "style_id": "781290",
+    "product_name": "Relaxed Straight Trouser Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "34.97",
+    "discount_pct": "56.2602",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=781299002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/21/styleColors/0",
+    "source_percentage_off": "56",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709142002",
+    "style_id": "709142",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "39.0",
+    "discount_pct": "51.2195",
+    "is_discounted": true,
+    "promo_text": "50% off + extra 10% in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709142002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/4/styleColors/4",
+    "source_percentage_off": "51",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "50% off + extra 10% in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "876543012",
+    "style_id": "876543",
+    "product_name": "Slim City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "31.0",
+    "discount_pct": "61.2258",
+    "is_discounted": true,
+    "promo_text": "60% off: limited time",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=876543012",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/1/styleColors/1",
+    "source_percentage_off": "61",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "60% off: limited time",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "709159002",
+    "style_id": "598134",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=709159002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/2/styleColors/0",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "455585002",
+    "style_id": "514101",
+    "product_name": "'90s Loose Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "63.0",
+    "discount_pct": "21.2008",
+    "is_discounted": true,
+    "promo_text": "Extra 10% off in the app",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=455585002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/24/styleColors/0",
+    "source_percentage_off": "21",
+    "source_price_type": "P",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 10% off in the app",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "605405052",
+    "style_id": "605405",
+    "product_name": "Straight City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "34.97",
+    "discount_pct": "56.2602",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=605405052",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/10/styleColors/0",
+    "source_percentage_off": "56",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889859002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "59.99",
+    "discount_pct": "24.9656",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889859002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/11",
+    "source_percentage_off": "25",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "605405032",
+    "style_id": "605405",
+    "product_name": "Straight City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "64.97",
+    "discount_pct": "18.7367",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=605405032",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/10/styleColors/1",
+    "source_percentage_off": "19",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "JUST_REDUCED",
+          "content": "Lower Price",
+          "position": "2"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "519224002",
+    "style_id": "519224",
+    "product_name": "Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "54.99",
+    "discount_pct": "21.3867",
+    "is_discounted": true,
+    "promo_text": null,
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=519224002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/8/styleColors/0",
+    "source_percentage_off": "21",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "899350002",
+    "style_id": "899341",
+    "product_name": "Rigid Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "54.97",
+    "discount_pct": "21.4153",
+    "is_discounted": true,
+    "promo_text": null,
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=899350002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/3/styleColors/0",
+    "source_percentage_off": "21",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "JUST_REDUCED",
+          "content": "Lower Price",
+          "position": "2"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "720206002",
+    "style_id": "720206",
+    "product_name": "Athletic Taper Jeans",
+    "category": "Men / Jeans",
+    "original_price": "69.95",
+    "current_price": "49.97",
+    "discount_pct": "28.5633",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=720206002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/22/styleColors/0",
+    "source_percentage_off": "29",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "865226002",
+    "style_id": "865226",
+    "product_name": "Stranger Things Adult Flannel-Lined Extra Baggy Jeans",
+    "category": "Men / Jeans",
+    "original_price": "108.0",
+    "current_price": "49.97",
+    "discount_pct": "53.7315",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=865226002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/11/styleColors/0",
+    "source_percentage_off": "54",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "843804012",
+    "style_id": "843804",
+    "product_name": "Corduroy '90s Loose Carpenter Pants",
+    "category": "Men / Jeans",
+    "original_price": "89.95",
+    "current_price": "69.97",
+    "discount_pct": "22.2123",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=843804012",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/18/styleColors/0",
+    "source_percentage_off": "22",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "894727002",
+    "style_id": "894727",
+    "product_name": "Gap \u00d7 HFR \u201890s Loose Jeans by IGDALYAH",
+    "category": "Men / Jeans",
+    "original_price": "118.0",
+    "current_price": "44.97",
+    "discount_pct": "61.8898",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=894727002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/23/styleColors/0",
+    "source_percentage_off": "62",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "819664002",
+    "style_id": "819602",
+    "product_name": "Skinny Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=819664002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/12/styleColors/1",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "605405022",
+    "style_id": "605405",
+    "product_name": "Straight City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=605405022",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/10/styleColors/3",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "876543022",
+    "style_id": "876543",
+    "product_name": "Slim City Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=876543022",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/1/styleColors/0",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "819575002",
+    "style_id": "819602",
+    "product_name": "Skinny Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.97",
+    "discount_pct": "43.7523",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=819575002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/12/styleColors/2",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "889857002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.99",
+    "discount_pct": "43.7273",
+    "is_discounted": true,
+    "promo_text": "Extra 50% off at checkout",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=889857002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/9",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Extra 50% off at checkout",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "JUST_REDUCED",
+          "content": "Lower Price",
+          "position": "2"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "819588002",
+    "style_id": "819602",
+    "product_name": "Skinny Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "44.97",
+    "discount_pct": "43.7523",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=819588002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/12/styleColors/0",
+    "source_percentage_off": "44",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "823058002",
+    "style_id": "823045",
+    "product_name": "Relaxed Straight Carpenter Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "64.97",
+    "discount_pct": "18.7367",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=823058002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/17/styleColors/4",
+    "source_percentage_off": "19",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [
+        {
+          "type": "Dynamic",
+          "id": "JUST_REDUCED",
+          "content": "Lower Price",
+          "position": "2"
+        }
+      ],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  },
+  {
+    "snapshot_date": "2026-09-26",
+    "product_id": "455579002",
+    "style_id": "455516",
+    "product_name": "Slim Jeans",
+    "category": "Men / Jeans",
+    "original_price": "79.95",
+    "current_price": "59.97",
+    "discount_pct": "24.9906",
+    "is_discounted": true,
+    "promo_text": "Final sale",
+    "source": "gap_current",
+    "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+    "product_url": "https://www.gap.com/browse/product.do?pid=455579002",
+    "currency": "USD",
+    "raw_file": "products.json",
+    "raw_pointer": "/products/5/styleColors/0",
+    "source_percentage_off": "25",
+    "source_price_type": "M",
+    "promo_evidence": {
+      "product_color_flags": [
+        {
+          "content": "Final sale",
+          "position": "1",
+          "type": "REGULAR"
+        }
+      ],
+      "product_color_badges": [],
+      "style_flags": [],
+      "style_excluded_from_promotion": "false"
+    },
+    "price_basis": "displayed_current_vs_retailer_reference",
+    "provenance": {
+      "observed_at": "2026-09-26T19:26:23.779464+00:00",
+      "retrieved_at": "2026-09-26T19:26:23.779464+00:00",
+      "evidence_url": "https://api.gap.com/v2/catalog_search_products/v2/category_products?pageSize=200&pageNumber=0&cid=6998&vendor=constructorio&client_id=0&session_id=0&includeMarketingFlagsDetails=true&enableDynamicFacets=true&enableDynamicPhoto=true&brand=gap&locale=en_US&market=us&department=75",
+      "evidence_sha256": "d00202fffda6f482c1fa6f78814b1bc4e3635d61f1029f3b5064df4c2c85f605",
+      "requested_target_period": null,
+      "archive_timestamp": null,
+      "price_fields": {
+        "original_price": "regularPrice",
+        "current_price": "effectivePrice"
+      },
+      "snapshot_id": "20260926T192622786575Z-men-jeans"
+    }
+  }
+]
