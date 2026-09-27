@@ -106,3 +106,12 @@ def daily_snapshots(snapshots):
 
 def readable_time(value):
     return datetime.fromisoformat(value).strftime('%b %d, %Y · %H:%M UTC')
+
+
+def as_of_snapshots(snapshots, as_of):
+    """Select validated evidence through a UTC calendar day, without interpolation."""
+    eligible = sorted(
+        (s for s in snapshots
+         if datetime.fromisoformat(s['observed_at']).astimezone(timezone.utc).date() <= as_of),
+        key=lambda s: datetime.fromisoformat(s['observed_at']))
+    return eligible, {s['metrics']['category']: s for s in eligible}

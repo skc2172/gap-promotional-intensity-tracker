@@ -1,21 +1,31 @@
 """Gap research monitor. Start with: streamlit run app.py"""
 
 from urllib.parse import urlsplit
+from datetime import date, datetime, timezone
 
 import altair as alt
 import pandas as pd
 import streamlit as st
 
 from gap_tracker.dashboard_data import (ROOT, MEASURES, evidence_rows, load_snapshots,
-                                        metric_value, refresh_current, daily_snapshots, readable_time)
+                                        metric_value, refresh_current, daily_snapshots, readable_time, as_of_snapshots)
 
 st.set_page_config(page_title='Gap | Promotional Intensity Monitor', layout='wide')
 st.markdown('### GAP / PROMOTIONAL INTENSITY MONITOR')
 st.write("Monitor Gap's promotional intensity across categories and over time.")
 st.caption('US advertised prices · Product-color observations · USD')
 
+snapshots, errors = load_snapshots()
+today = date.today()
+earliest = min((datetime.fromisoformat(s['observed_at']).astimezone(timezone.utc).date() for s in snapshots), default=today)
+
 with st.sidebar:
     st.header('Research controls')
+    as_of = st.date_input('As of', value=today, min_value=min(earliest, today), max_value=today, key='as_of',
+                          help='Latest available evidence through the selected UTC calendar day.')
+    if as_of > today:
+        st.error('As of cannot be after today.')
+        st.stop()
     st.caption('Collect the latest Gap pricing observations and add them to the historical dataset.')
     if st.button('Refresh Current Data', type='primary'):
         with st.spinner('Collecting all reported pages, validating and calculating metrics…'):
@@ -34,7 +44,8 @@ with st.sidebar:
                 st.write(category.replace('-', ' ').title() + ': ' + outcome.get('status', 'Unavailable'))
             st.caption('Full refresh diagnostics are retained with the saved collection records.')
 
-snapshots, errors = load_snapshots()
+if 'refresh_result' in st.session_state:
+    snapshots, errors = load_snapshots()
 if errors:
     st.warning(f'{len(errors)} invalid snapshot(s) excluded. Saved evidence and validation records retain the details.')
 if not snapshots:
@@ -46,8 +57,8 @@ selected = st.sidebar.multiselect('Categories', categories, default=categories)
 if not selected:
     st.info('Select at least one category.')
     st.stop()
-current = [s for s in snapshots if s['metrics']['source'] == 'gap_current' and s['metrics']['category'] in selected]
-latest = {s['metrics']['category']: s for s in current}
+snapshots, resolved = as_of_snapshots(snapshots, as_of)
+latest = {category: resolved[category] for category in selected if category in resolved}
 focus = st.sidebar.selectbox('Focus category', selected)
 
 def table_record(s):
@@ -57,14 +68,16 @@ def table_record(s):
             'Observations': m['total_observations'], 'Styles': m['unique_styles_observed'],
             'Price coverage %': 100 * m['price_eligible_observations'] / m['total_observations']}
 
-st.subheader('01 / Current promotional picture')
-all_latest = {s['metrics']['category']: s for s in snapshots if s['metrics']['source'] == 'gap_current'}
-st.write('See how widespread and how deep advertised discounts are today.')
+st.subheader('01 / ' + ('Current promotional picture' if as_of == today else 'Promotional picture as of ' + as_of.strftime('%b %d, %Y')))
+st.write('See how widespread and how deep advertised discounts are' + (' today.' if as_of == today else ' as of the selected date.'))
 st.caption('Latest available observations for each category. Collection dates are shown below.')
-for col, category in zip(st.columns(len(all_latest) or 1), sorted(all_latest)):
-    s = all_latest[category]
+for col, category in zip(st.columns(len(selected)), selected):
+    s = latest.get(category)
     with col:
         st.markdown('**' + category + '**')
+        if s is None:
+            st.write('Unavailable — no observation on or before this date.')
+            continue
         for label in list(MEASURES)[:2]:
             value = metric_value(s['metrics'], label)
             st.metric(label, 'Unavailable' if value is None else f'{value:.1f}%')
@@ -72,7 +85,7 @@ for col, category in zip(st.columns(len(all_latest) or 1), sorted(all_latest)):
         st.write(f'Deep-discount share ≥30%: **{deep:.1f}%**')
         st.caption('Collected ' + readable_time(s['observed_at']))
         if s['scope'] != 'All reported pages':
-            st.caption(s['scope'])
+            st.caption('Historical' if s['metrics']['source'] == 'gap_wayback' else s['scope'])
 with st.expander('Metric definitions'):
     st.markdown('**Discount Breadth** — Share of observed product/color combinations where the advertised current price is below the displayed reference price. Higher means discounting is more widespread.')
     st.markdown('**Median Discount Depth** — Median percentage price reduction among product/color combinations that are discounted. Higher means the typical discount is deeper.')
@@ -95,8 +108,11 @@ with methodology:
     st.write("Price coverage refers to the availability of the required price fields within the observed sample, not coverage of Gap's full assortment.")
 
 dates = sorted({s['metrics']['snapshot_date'] for s in snapshots})
-period = st.select_slider('Observation date range', options=dates, value=(dates[0], dates[-1]),
-                          format_func=lambda d: pd.Timestamp(d).strftime('%b %d, %Y'))
+if len(dates) > 1:
+    period = st.select_slider('Observation date range', options=dates, value=(dates[0], dates[-1]),
+                              format_func=lambda d: pd.Timestamp(d).strftime('%b %d, %Y'), key=f'period-{as_of}')
+else:
+    period = (dates[0], dates[0]) if dates else (None, None)
 trend = [s for s in snapshots if s['metrics']['category'] in selected and s['scope'] in scopes
          and period[0] <= s['metrics']['snapshot_date'] <= period[1]]
 st.caption('Historical and current samples are not directly comparable. Dots show available observations; gaps are not filled.')
@@ -119,7 +135,9 @@ else:
 
 st.subheader('03 / Category comparison')
 st.write('Compare promotional activity across categories.')
-st.caption('Latest available observations for selected categories; sample composition can differ.')
+st.caption('Same observations as Section 01. Actual observation dates may differ across categories; sample composition can differ.')
+for category in selected:
+    st.caption(category + ': ' + (readable_time(latest[category]['observed_at']) if category in latest else 'Unavailable'))
 if latest:
     comparison = pd.DataFrame([table_record(s) for s in latest.values()])
     for col, label in zip(st.columns(3), MEASURES):
@@ -134,7 +152,10 @@ focus = st.selectbox('Investigate category', selected, index=selected.index(focu
 st.subheader('04 / Underlying evidence')
 st.write('Inspect the products and advertised prices behind the aggregate metrics.')
 choices = [s for s in reversed(snapshots) if s['metrics']['category'] == focus]
-evidence = st.selectbox('Evidence snapshot', choices,
+if not choices:
+    st.info('Unavailable — no evidence for this category on or before the selected date.')
+    st.stop()
+evidence = st.selectbox('Evidence snapshot', choices, index=choices.index(latest[focus]), key=f'evidence-{as_of}-{focus}-{latest[focus]["id"]}',
                         format_func=lambda s: f"{readable_time(s['observed_at'])} · {source_labels[s['scope']]}")
 m = evidence['metrics']; v = evidence['validation']
 st.caption(f"{m['total_observations']:,} product-colors · {m['unique_styles_observed']:,} styles · "
