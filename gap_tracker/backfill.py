@@ -43,45 +43,71 @@ def eligible(url, key, api=True):
 
 def read_index(path):
     data = json.loads(path.read_bytes())
-    return [dict(zip(data[0], r)) for r in data[1:]] if data else []
+    if not isinstance(data, list):
+        raise ValueError('CDX response is not a record array')
+    if not data:
+        return []
+    if (not isinstance(data[0], list) or not {'timestamp', 'original', 'digest'} <= set(data[0])
+            or any(not isinstance(r, list) or len(r) != len(data[0]) for r in data[1:])):
+        raise ValueError('Invalid CDX record structure')
+    return [dict(zip(data[0], r)) for r in data[1:]]
 
 
-def discover(key):
+def discover(key, start=None, end=None, index_root=ROOT):
     config = category_config(key)
     logs = []
     for name, endpoint in zip(('legacy-api-full', 'current-api-full'), API_PATHS):
-        path = ROOT / key / (name + '.json')
+        path = index_root / key / (name + '.json')
         params = {'url': 'api.gap.com' + endpoint + '*', 'output': 'json',
                   'filter': ['statuscode:200', f"original:.*[?&]cid={config['category_id']}(&.*)?$"],
                   'fl': 'timestamp,original,mimetype,statuscode,digest', 'limit': '10000'}
+        if start is not None:
+            params.update({'from': start.strftime('%Y%m%d'), 'to': end.strftime('%Y%m%d')})
         meta = fetch(CDX, path, params)
-        records = read_index(path) if meta.get('status_code') == 200 else []
+        records, error = [], meta.get('error')
+        if meta.get('status_code') == 200:
+            try:
+                records = read_index(path)
+            except (ValueError, TypeError, OSError) as exc:
+                error = str(exc)
+        else:
+            error = error or f"CDX HTTP {meta.get('status_code')}"
         logs.append({'index': str(path), 'status': meta.get('status_code'), 'records': len(records),
+                     'error': error, 'usable': meta.get('status_code') == 200 and not error,
                      'potentially_truncated': len(records) >= 10000})
-    (ROOT / key / 'discovery-summary.json').write_text(json.dumps(logs, indent=2) + '\n')
+    (index_root / key / 'discovery-summary.json').write_text(json.dumps(logs, indent=2) + '\n')
     return logs
 
 
-def collect_candidates(key):
+def collect_candidates(key, index_root=ROOT, raw_root=Path('data/raw/wayback'), represented=None, start=None, end=None):
     records = []
-    for path in (ROOT / key).glob('*api-full.json'):
+    summary = index_root / key / 'discovery-summary.json'
+    indices = {Path(i['index']).name: i for i in json.loads(summary.read_text())} if summary.exists() else {}
+    for path in (index_root / key).glob('*api-full.json'):
+        index = indices.get(path.name)
+        if index and (index.get('status') != 200 or index.get('error') or index.get('usable') is False):
+            continue  # Preserve failed response evidence; never parse it as captures.
         records.extend(read_index(path))
     logs, seen = [], set()
     for r in sorted(records, key=lambda r: (r['timestamp'], r['original'])):
         entry = {'candidate': r, 'category_key': key}
-        if not eligible(r['original'], key):
+        if start is not None and not start.strftime('%Y%m%d') <= r['timestamp'][:8] <= end.strftime('%Y%m%d'):
+            entry['status'] = 'outside_requested_period'
+        elif represented and (key, r['timestamp']) in represented:
+            entry['status'] = 'already_represented'
+        elif not eligible(r['original'], key):
             entry['status'] = 'excluded_filtered_or_nonstandard_category_request'
         elif r['digest'] in seen:
             entry['status'] = 'redundant_identical_archive_digest'
         else:
             ts = r['timestamp']
-            folder = Path('data/raw/wayback') / (ts + '-' + key)
+            folder = raw_root / (ts + '-' + key)
             filename = ts + '-' + hashlib.sha256(r['original'].encode()).hexdigest()[:8] + '.json'
             path = folder / filename
             url = f"https://web.archive.org/web/{ts}id_/{r['original']}"
             # Reuse any exact replay already saved by the POC.
             cached = None
-            for metadata in Path('data/raw/wayback').glob('*/*.request.json'):
+            for metadata in raw_root.glob('*/*.request.json'):
                 m = json.loads(metadata.read_text())
                 if m.get('requested_url') == url and metadata.with_name(metadata.name.removesuffix('.request.json')).exists():
                     cached = (metadata.with_name(metadata.name.removesuffix('.request.json')), m)
@@ -104,7 +130,7 @@ def collect_candidates(key):
                          actual_archive_timestamp=confirmed_timestamp(meta, ts),
                          status='replay_verified' if confirmed_timestamp(meta, ts) else 'replay_unavailable_or_unverified')
         logs.append(entry)
-        (ROOT / key / 'api-selection.json').write_text(json.dumps(logs, indent=2) + '\n')
+        (index_root / key / 'api-selection.json').write_text(json.dumps(logs, indent=2) + '\n')
     return logs
 
 

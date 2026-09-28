@@ -1,14 +1,14 @@
 """Gap research monitor. Start with: streamlit run app.py"""
 
 from urllib.parse import urlsplit
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timezone, timedelta
 
 import altair as alt
 import pandas as pd
 import streamlit as st
 
 from gap_tracker.dashboard_data import (ROOT, MEASURES, evidence_rows, load_snapshots,
-                                        metric_value, refresh_current, daily_snapshots, readable_time, as_of_snapshots)
+                                        metric_value, refresh_current, daily_snapshots, readable_time, as_of_snapshots, update_historical_archive)
 
 st.set_page_config(page_title='Gap | Promotional Intensity Monitor', layout='wide')
 st.markdown('### GAP / PROMOTIONAL INTENSITY MONITOR')
@@ -44,7 +44,29 @@ with st.sidebar:
                 st.write(category.replace('-', ' ').title() + ': ' + outcome.get('status', 'Unavailable'))
             st.caption('Full refresh diagnostics are retained with the saved collection records.')
 
-if 'refresh_result' in st.session_state:
+    with st.expander('Update Historical Archive'):
+        st.caption('Search Wayback for additional historical observations. Archived coverage may be incomplete; not every category or period can be recovered.')
+        start = st.date_input('Historical start date', value=today - timedelta(days=365), min_value=date(1996, 1, 1), max_value=today)
+        end = st.date_input('Historical end date', value=today, min_value=date(1996, 1, 1), max_value=today)
+        if st.button('Update Historical Archive', disabled=start > end):
+            with st.spinner('Checking historical archive…'):
+                try:
+                    st.session_state['archive_result'] = update_historical_archive(start, end)
+                except Exception:
+                    st.session_state['archive_result'] = {'failed': True}
+            st.rerun()
+        if 'archive_result' in st.session_state:
+            result = st.session_state['archive_result']
+            if result.get('failed'):
+                st.warning('Historical archive update could not complete. Saved observations are retained.')
+            elif result.get('incomplete'):
+                st.warning(f"Archive search could not be completed — {result['added']} new observations added. Saved observations are retained.")
+            elif result['added']:
+                st.success(f"Historical archive updated — {result['added']} new observations added.")
+            else:
+                st.info('Historical archive checked — no new valid observations found for this period.')
+
+if 'refresh_result' in st.session_state or 'archive_result' in st.session_state:
     snapshots, errors = load_snapshots()
 if errors:
     st.warning(f'{len(errors)} invalid snapshot(s) excluded. Saved evidence and validation records retain the details.')
@@ -127,7 +149,7 @@ if trend:
         y=alt.Y(f'{measure}:Q', scale=alt.Scale(domain=[0, 100]), title=measure + ' (%)'),
         color=alt.Color('Category:N', scale=alt.Scale(domain=categories),
                         legend=alt.Legend(title='Category', orient='bottom', columns=2, labelLimit=0)),
-        shape=alt.Shape('Observation type:N', legend=alt.Legend(title='Observation type', orient='bottom', labelLimit=0)), tooltip=['Category:N', 'Date:N', 'Observation type:N', alt.Tooltip(f'{measure}:Q', format='.1f')])
+        shape=alt.Shape('Observation type:N', legend=alt.Legend(title='Observation type', orient='bottom', labelLimit=0)), tooltip=['Category:N', alt.Tooltip('Date:T', title='Date', timeUnit='utcyearmonthdate', format='%b %d, %Y'), 'Observation type:N', alt.Tooltip(f'{measure}:Q', format='.1f')])
     st.altair_chart(chart, width='stretch')
 else:
     st.info('No snapshots match these date and scope filters.')

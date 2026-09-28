@@ -115,3 +115,13 @@ def as_of_snapshots(snapshots, as_of):
          if datetime.fromisoformat(s['observed_at']).astimezone(timezone.utc).date() <= as_of),
         key=lambda s: datetime.fromisoformat(s['observed_at']))
     return eligible, {s['metrics']['category']: s for s in eligible}
+
+
+def update_historical_archive(start, end, root=ROOT):
+    """Explicit archive action, isolated from live refresh and normal UI reads."""
+    process = subprocess.run([sys.executable, '-m', 'gap_tracker.historical_update',
+                              '--start', start.isoformat(), '--end', end.isoformat()],
+                             cwd=root, capture_output=True, text=True)
+    if process.returncode:
+        raise RuntimeError('Historical archive update did not complete')
+    return json.loads(process.stdout)
