@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 
 from gap_tracker.dashboard_data import (ROOT, MEASURES, evidence_rows, load_snapshots,
-                                        metric_value, refresh_current, daily_snapshots, readable_time, as_of_snapshots, update_historical_archive)
+                                        metric_value, refresh_current, daily_snapshots, readable_time, as_of_snapshots, update_historical_archive, historical_breadth_depth)
 
 st.set_page_config(page_title='Gap | Promotional Intensity Monitor', layout='wide')
 st.markdown('### GAP / PROMOTIONAL INTENSITY MONITOR')
@@ -141,18 +141,46 @@ st.caption('Historical and current samples are not directly comparable. Dots sho
 trend = daily_snapshots(trend)
 if len({s['metrics']['snapshot_date'] for s in trend if s['scope'] == 'All reported pages'}) == 1:
     st.info('Current collections cover only one day so far. Use historical observations as context, with the limitations explained in Methodology & Data Quality.')
-measure = st.selectbox('Trend measure', list(MEASURES))
+view = st.radio('View', ['Over time', 'Breadth vs. Depth'], horizontal=True)
+if view == 'Over time':
+    measure = st.selectbox('Trend measure', list(MEASURES))
 if trend:
     frame = pd.DataFrame([{**table_record(s), 'Date': s['metrics']['snapshot_date'], 'Observation type': source_labels[s['scope']]} for s in trend])
-    chart = alt.Chart(frame).mark_point(size=100, filled=True).encode(
-        x=alt.X('Date:T', title='Observation date', scale=alt.Scale(type='utc'), axis=alt.Axis(format='%b %d, %Y')),
-        y=alt.Y(f'{measure}:Q', scale=alt.Scale(domain=[0, 100]), title=measure + ' (%)'),
-        color=alt.Color('Category:N', scale=alt.Scale(domain=categories),
-                        legend=alt.Legend(title='Category', orient='bottom', columns=2, labelLimit=0)),
-        shape=alt.Shape('Observation type:N', legend=alt.Legend(title='Observation type', orient='bottom', labelLimit=0)), tooltip=['Category:N', alt.Tooltip('Date:T', title='Date', timeUnit='utcyearmonthdate', format='%b %d, %Y'), 'Observation type:N', alt.Tooltip(f'{measure}:Q', format='.1f')])
+    if view == 'Over time':
+        chart = alt.Chart(frame).mark_point(size=100, filled=True).encode(
+            x=alt.X('Date:T', title='Observation date', scale=alt.Scale(type='utc'), axis=alt.Axis(format='%b %d, %Y')),
+            y=alt.Y(f'{measure}:Q', scale=alt.Scale(domain=[0, 100]), title=measure + ' (%)'),
+            color=alt.Color('Category:N', scale=alt.Scale(domain=categories),
+                            legend=alt.Legend(title='Category', orient='bottom', columns=2, labelLimit=0)),
+            shape=alt.Shape('Observation type:N', legend=alt.Legend(title='Observation type', orient='bottom', labelLimit=0)), tooltip=['Category:N', alt.Tooltip('Date:T', title='Date', timeUnit='utcyearmonthdate', format='%b %d, %Y'), 'Observation type:N', alt.Tooltip(f'{measure}:Q', format='.1f')])
+    else:
+        chart = alt.Chart(frame[frame['Category'] == focus]).mark_point(size=100, filled=True).encode(
+            x=alt.X('Discount Breadth:Q', title='Discount Breadth (%)', scale=alt.Scale(domain=[0, 100])),
+            y=alt.Y('Median Discount Depth:Q', title='Median Discount Depth (%)', scale=alt.Scale(domain=[0, 100])),
+            color=alt.Color('Category:N', scale=alt.Scale(domain=categories),
+                            legend=alt.Legend(title='Category', orient='bottom', columns=2, labelLimit=0, values=[focus])),
+            shape=alt.Shape('Observation type:N', legend=alt.Legend(title='Observation type', orient='bottom', labelLimit=0)),
+            tooltip=['Category:N', alt.Tooltip('Date:T', title='Date', timeUnit='utcyearmonthdate', format='%b %d, %Y'),
+                     'Observation type:N', *[alt.Tooltip(f'{label}:Q', title=label + ' (%)', format='.1f') for label in MEASURES],
+                     alt.Tooltip('Observations:Q', title='n (product/colors)', format=',.0f')])
     st.altair_chart(chart, width='stretch')
 else:
     st.info('No snapshots match these date and scope filters.')
+
+if view == 'Breadth vs. Depth':
+    reference = next((s for s in reversed(snapshots) if s['metrics']['category'] == focus
+                      and s['metrics']['source'] == 'gap_current'), None)
+    result = historical_breadth_depth(reference, trend)
+    st.markdown('**' + focus + '**')
+    if result is None:
+        st.write('Historical comparison unavailable — no current observation with both measures on or before the As-of date.')
+    else:
+        count, total = result
+        st.markdown('**Current vs. available history**')
+        st.write(f'{count} of {total} historical observations combined breadth and depth at or above current levels.')
+        st.write(f"Current: {metric_value(reference['metrics'], 'Discount Breadth'):.1f}% breadth · {metric_value(reference['metrics'], 'Median Discount Depth'):.1f}% median depth")
+        st.caption('Current benchmark: ' + readable_time(reference['observed_at']) + '. Historical reference set follows the date and scope filters.')
+    st.caption('Historical coverage is intermittent and represents the available reference set, not a continuous or matched historical panel.')
 
 
 st.subheader('03 / Category comparison')

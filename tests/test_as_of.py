@@ -33,7 +33,8 @@ class AsOfTests(unittest.TestCase):
             self.assertEqual(app.date_input[0].value, date.today())
             self.assertEqual(app.date_input[0].max, date.today())
             self.assertEqual(app.date_input[0].min, date(2023, 7, 16))
-            previous = {s['metrics']['category']: s for s in snapshots if s['metrics']['source']=='gap_current'}
+            previous = {s['metrics']['category']: s for s in as_of_snapshots(snapshots, date.today())[0]
+                        if s['metrics']['source']=='gap_current'}
             self.assertEqual(as_of_snapshots(snapshots, date.today())[1], previous)
             self.assertIn('Current promotional picture', app.subheader[0].value)
             for cutoff in (date.today(), date(2026, 8, 31), date(2023, 7, 16)):

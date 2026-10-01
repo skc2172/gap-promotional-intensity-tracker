@@ -125,3 +125,33 @@ def update_historical_archive(start, end, root=ROOT):
     if process.returncode:
         raise RuntimeError('Historical archive update did not complete')
     return json.loads(process.stdout)
+
+
+def historical_breadth_depth(reference, observations):
+    """Count paired historical comparisons against a direct/current snapshot.
+
+    The caller supplies the displayed reference set (including its date filters).
+    None means there is no usable current benchmark; (0, 0) means no history.
+    """
+    from math import isfinite
+
+    def pair(snapshot):
+        values = (snapshot['metrics'].get('share_discounted'),
+                  snapshot['metrics'].get('median_discount_pct_among_discounted'))
+        return values if all(v is not None and isfinite(v) for v in values) else None
+
+    if reference is None or reference['metrics']['source'] != 'gap_current':
+        return None
+    benchmark = pair(reference)
+    if benchmark is None:
+        return None
+    prior = []
+    for snapshot in observations:
+        m = snapshot['metrics']
+        if (m['source'] == 'gap_wayback' and m['category'] == reference['metrics']['category']
+                and snapshot['id'] != reference['id']
+                and datetime.fromisoformat(snapshot['observed_at']) < datetime.fromisoformat(reference['observed_at'])):
+            values = pair(snapshot)
+            if values is not None:
+                prior.append(values)
+    return sum(b >= benchmark[0] and d >= benchmark[1] for b, d in prior), len(prior)
