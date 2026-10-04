@@ -1,0 +1,75 @@
+{
+  "raw_snapshot": "data/raw/20261001T032023619895Z-men-tshirts",
+  "parser_version": 4,
+  "schema_version": 2,
+  "observation_unit": "listed product-color ID; not unique style or size SKU",
+  "products_captured": 248,
+  "unique_styles": 86,
+  "category": "Men / T-Shirts",
+  "category_id": "5225",
+  "department_id": "75",
+  "price_coverage": 1.0,
+  "api_total_colors": "252",
+  "pagination": {
+    "pageSize": "200",
+    "currentPage": "0",
+    "pageNumberTotal": "2"
+  },
+  "response_personalized": true,
+  "pages_collected": 2,
+  "pages": [
+    {
+      "file": "products.json",
+      "listed_observations": 195,
+      "api_total_colors": "252",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "0",
+        "pageNumberTotal": "2"
+      }
+    },
+    {
+      "file": "products-page-1.json",
+      "listed_observations": 53,
+      "api_total_colors": "252",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "1",
+        "pageNumberTotal": "2"
+      }
+    }
+  ],
+  "duplicates_removed": 0,
+  "duplicates": [],
+  "api_totals_by_page": [
+    "252",
+    "252"
+  ],
+  "api_total_changed_during_collection": false,
+  "api_total_minus_collected": 4,
+  "missing": {
+    "product_name": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "original_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "current_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "promo_text": {
+      "count": 91,
+      "rate": 0.36693548387096775
+    }
+  },
+  "limitations": [
+    "All reported pages collected; API total may differ from listed unique observations",
+    "Additional swatch records excluded unless listed in categories[].ccList",
+    "Prices are advertised category prices, not verified checkout prices",
+    "Offer text is not applied to prices; missing flags do not prove no offer",
+    "USD derives from the fixed US collection context"
+  ]
+}

@@ -125,3 +125,25 @@ class PortableSnapshotTests(unittest.TestCase):
                 self.assertFalse(errors)
                 self.assertEqual(snapshots[0]['raw'], raw)
                 self.assertEqual(evidence_rows(snapshots[0])[0]['Color'], 'Blue')
+
+class ProcessedDisplayTests(unittest.TestCase):
+    def test_processed_bundle_matches_raw_display_without_raw_files(self):
+        source = next(s for s in load_snapshots()[0] if s['metrics']['source'] == 'gap_current' and s.get('display'))
+        expected = evidence_rows(source)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            folder = root / 'data/processed' / source['id']
+            folder.mkdir(parents=True)
+            for name in ('observations.json', 'metrics.json', 'validation.json', 'display.json'):
+                (folder/name).write_bytes((source['folder']/name).read_bytes())
+            snapshots, errors = load_snapshots(root)
+            self.assertFalse(errors)
+            self.assertFalse((root/'data/raw').exists())
+            self.assertEqual(snapshots[0]['metrics'], source['metrics'])
+            self.assertEqual(snapshots[0]['scope'], source['scope'])
+            self.assertEqual(evidence_rows(snapshots[0]), expected)
+            display = json.loads((folder/'display.json').read_text())
+            display['observations_sha256'] = 'wrong'
+            (folder/'display.json').write_text(json.dumps(display))
+            self.assertFalse(load_snapshots(root)[0])
+            self.assertIn('Display metadata', load_snapshots(root)[1][0])

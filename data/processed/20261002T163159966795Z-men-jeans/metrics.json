@@ -1,0 +1,59 @@
+{
+  "metrics_version": 1,
+  "snapshot_date": "2026-10-02",
+  "source": "gap_current",
+  "source_url": "https://www.gap.com/browse/men/jeans?cid=6998",
+  "category": "Men / Jeans",
+  "currency": "USD",
+  "observation_unit": "product-color (style_id, product_id)",
+  "total_observations": 94,
+  "unique_styles_observed": 24,
+  "price_eligible_observations": 94,
+  "missing_price_observations": 0,
+  "full_price_observations": 1,
+  "discounted_observations": 93,
+  "share_discounted": 0.989362,
+  "median_discount_pct_among_discounted": 41.213258,
+  "mean_discount_pct_among_discounted": 43.253035,
+  "observations_discounted_at_least_30_pct": 85,
+  "share_discounted_at_least_30_pct": 0.904255,
+  "discount_bands": {
+    "0%": {
+      "count": 1,
+      "share_all_observations": 0.010638
+    },
+    ">0–<20%": {
+      "count": 1,
+      "share_all_observations": 0.010638
+    },
+    "20–<30%": {
+      "count": 7,
+      "share_all_observations": 0.074468
+    },
+    "30–<40%": {
+      "count": 24,
+      "share_all_observations": 0.255319
+    },
+    "40–<50%": {
+      "count": 27,
+      "share_all_observations": 0.287234
+    },
+    "≥50%": {
+      "count": 34,
+      "share_all_observations": 0.361702
+    }
+  },
+  "definitions": {
+    "markdown": "100 * (original_price - current_price) / original_price",
+    "shares": "Fractions 0–1; denominator is all product-color observations, including missing-price rows.",
+    "missing_prices": "Unknown, not full-price. With missing prices, shares are confirmed discounted counts / all observations (lower bounds). Bands exclude unknowns.",
+    "averages": "Equal weight per discounted product-color observation; null if none are discounted.",
+    "rounding": "Exact rational arithmetic for classification and aggregation; output rounded to six decimal places.",
+    "promotions": "promo_text, stored discount_pct, and stored is_discounted are not used."
+  },
+  "input": {
+    "file": "observations.json",
+    "sha256": "d5c4bb2762147ab000cf7088eba29c052b07d58789c05c87adda436acaab1e21",
+    "snapshot_id": "20261002T163159966795Z-men-jeans"
+  }
+}

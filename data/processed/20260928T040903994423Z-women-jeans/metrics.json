@@ -1,0 +1,59 @@
+{
+  "metrics_version": 1,
+  "snapshot_date": "2026-09-28",
+  "source": "gap_current",
+  "source_url": "https://www.gap.com/browse/women/jeans?cid=5664",
+  "category": "Women / Jeans",
+  "currency": "USD",
+  "observation_unit": "product-color (style_id, product_id)",
+  "total_observations": 379,
+  "unique_styles_observed": 103,
+  "price_eligible_observations": 379,
+  "missing_price_observations": 0,
+  "full_price_observations": 2,
+  "discounted_observations": 377,
+  "share_discounted": 0.994723,
+  "median_discount_pct_among_discounted": 51.083936,
+  "mean_discount_pct_among_discounted": 44.541737,
+  "observations_discounted_at_least_30_pct": 278,
+  "share_discounted_at_least_30_pct": 0.733509,
+  "discount_bands": {
+    "0%": {
+      "count": 2,
+      "share_all_observations": 0.005277
+    },
+    ">0–<20%": {
+      "count": 37,
+      "share_all_observations": 0.097625
+    },
+    "20–<30%": {
+      "count": 62,
+      "share_all_observations": 0.163588
+    },
+    "30–<40%": {
+      "count": 11,
+      "share_all_observations": 0.029024
+    },
+    "40–<50%": {
+      "count": 30,
+      "share_all_observations": 0.079156
+    },
+    "≥50%": {
+      "count": 237,
+      "share_all_observations": 0.62533
+    }
+  },
+  "definitions": {
+    "markdown": "100 * (original_price - current_price) / original_price",
+    "shares": "Fractions 0–1; denominator is all product-color observations, including missing-price rows.",
+    "missing_prices": "Unknown, not full-price. With missing prices, shares are confirmed discounted counts / all observations (lower bounds). Bands exclude unknowns.",
+    "averages": "Equal weight per discounted product-color observation; null if none are discounted.",
+    "rounding": "Exact rational arithmetic for classification and aggregation; output rounded to six decimal places.",
+    "promotions": "promo_text, stored discount_pct, and stored is_discounted are not used."
+  },
+  "input": {
+    "file": "observations.json",
+    "sha256": "f337a56df2f4a901305fba3953fe12526e6c73ef99fd555a1cc48022c7c2ab69",
+    "snapshot_id": "20260928T040903994423Z-women-jeans"
+  }
+}

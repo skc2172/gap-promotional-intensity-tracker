@@ -39,12 +39,18 @@ def load_snapshots(root=ROOT):
                 if not saved_raw.is_absolute():
                     raw = root / saved_raw
                 # Legacy absolute metadata uses the mirrored repository location.
-            manifest = json.loads((raw / 'manifest.json').read_text()) if not historical else {}
+            display_path = path.with_name('display.json')
+            display = json.loads(display_path.read_text()) if display_path.exists() else None
+            if display is not None and display['observations_sha256'] != metrics['input']['sha256']:
+                raise ValueError('Display metadata does not match saved observations')
+            manifest_path = raw / 'manifest.json'
+            manifest = json.loads(manifest_path.read_text()) if not historical and display is None and manifest_path.exists() else {}
             scope = (validation.get('historical_scope', 'Archive alternative') if historical else
-                     'All reported pages' if 'expected_pages' in manifest else 'First page only')
+                     display['scope'] if display is not None else
+                     'All reported pages' if 'expected_pages' in manifest or validation.get('pages_collected') else 'First page only')
             snapshots.append(dict(id=str(path.parent.relative_to(root / 'data/processed')),
                                   folder=path.parent, raw=raw, metrics=metrics, rows=rows,
-                                  validation=validation, scope=scope,
+                                  validation=validation, scope=scope, display=display,
                                   observed_at=rows[0]['provenance']['observed_at']))
         except (ValueError, KeyError, OSError, IndexError) as exc:
             errors.append(f'{path.parent.name}: {exc}')
@@ -57,23 +63,27 @@ def metric_value(metrics, label):
 
 
 def evidence_rows(snapshot):
-    """Enrich color from hash-verified saved raw ccName, without changing schema."""
+    """Use portable display metadata; raw evidence is a legacy/local fallback."""
     payloads, result = {}, []
     for row in snapshot['rows']:
         color = None
-        try:
-            path = snapshot['raw'] / row['raw_file']
-            expected = row['provenance']['evidence_sha256']
-            key = (path, expected)
-            if key not in payloads:
-                body = path.read_bytes()
-                payloads[key] = json.loads(body) if hashlib.sha256(body).hexdigest() == expected else None
-            node = payloads[key]
-            for part in row['raw_pointer'].strip('/').split('/'):
-                node = node[int(part)] if isinstance(node, list) else node[part]
-            color = node.get('ccName')
-        except (OSError, ValueError, KeyError, TypeError, IndexError):
-            pass  # Missing evidence stays unknown, never guessed from a name or image.
+        display = snapshot.get('display')
+        if display is not None:
+            color = display['colors'].get(row['style_id'] + ':' + row['product_id'])
+        else:
+            try:
+                path = snapshot['raw'] / row['raw_file']
+                expected = row['provenance']['evidence_sha256']
+                key = (path, expected)
+                if key not in payloads:
+                    body = path.read_bytes()
+                    payloads[key] = json.loads(body) if hashlib.sha256(body).hexdigest() == expected else None
+                node = payloads[key]
+                for part in row['raw_pointer'].strip('/').split('/'):
+                    node = node[int(part)] if isinstance(node, list) else node[part]
+                color = node.get('ccName')
+            except (OSError, ValueError, KeyError, TypeError, IndexError):
+                pass  # Missing evidence stays unknown, never guessed from a name or image.
         result.append({'Product': row['product_name'], 'Color': color,
                        'Style ID': row['style_id'], 'Product-color ID': row['product_id'],
                        'Reference price': float(row['original_price']) if row['original_price'] is not None else None,

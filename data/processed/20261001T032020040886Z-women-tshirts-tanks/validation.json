@@ -1,0 +1,108 @@
+{
+  "raw_snapshot": "data/raw/20261001T032020040886Z-women-tshirts-tanks",
+  "parser_version": 4,
+  "schema_version": 2,
+  "observation_unit": "listed product-color ID; not unique style or size SKU",
+  "products_captured": 482,
+  "unique_styles": 107,
+  "category": "Women / T-Shirts & Tanks",
+  "category_id": "17076",
+  "department_id": "136",
+  "price_coverage": 1.0,
+  "api_total_colors": "491",
+  "pagination": {
+    "pageSize": "200",
+    "currentPage": "0",
+    "pageNumberTotal": "3"
+  },
+  "response_personalized": true,
+  "pages_collected": 3,
+  "pages": [
+    {
+      "file": "products.json",
+      "listed_observations": 198,
+      "api_total_colors": "491",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "0",
+        "pageNumberTotal": "3"
+      }
+    },
+    {
+      "file": "products-page-1.json",
+      "listed_observations": 199,
+      "api_total_colors": "489",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "1",
+        "pageNumberTotal": "3"
+      }
+    },
+    {
+      "file": "products-page-2.json",
+      "listed_observations": 88,
+      "api_total_colors": "489",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "2",
+        "pageNumberTotal": "3"
+      }
+    }
+  ],
+  "duplicates_removed": 3,
+  "duplicates": [
+    {
+      "style_id": "795346",
+      "product_id": "886591042",
+      "first_file": "products-page-1.json",
+      "duplicate_file": "products-page-2.json",
+      "changed_fields": []
+    },
+    {
+      "style_id": "915968",
+      "product_id": "1182475022",
+      "first_file": "products-page-1.json",
+      "duplicate_file": "products-page-2.json",
+      "changed_fields": []
+    },
+    {
+      "style_id": "915324",
+      "product_id": "915324022",
+      "first_file": "products-page-1.json",
+      "duplicate_file": "products-page-2.json",
+      "changed_fields": []
+    }
+  ],
+  "api_totals_by_page": [
+    "491",
+    "489",
+    "489"
+  ],
+  "api_total_changed_during_collection": true,
+  "api_total_minus_collected": 9,
+  "missing": {
+    "product_name": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "original_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "current_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "promo_text": {
+      "count": 2,
+      "rate": 0.004149377593360996
+    }
+  },
+  "limitations": [
+    "All reported pages collected; API total may differ from listed unique observations",
+    "Additional swatch records excluded unless listed in categories[].ccList",
+    "Prices are advertised category prices, not verified checkout prices",
+    "Offer text is not applied to prices; missing flags do not prove no offer",
+    "USD derives from the fixed US collection context"
+  ]
+}

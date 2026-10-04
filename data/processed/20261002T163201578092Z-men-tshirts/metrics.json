@@ -1,0 +1,59 @@
+{
+  "metrics_version": 1,
+  "snapshot_date": "2026-10-02",
+  "source": "gap_current",
+  "source_url": "https://www.gap.com/browse/men/t-shirts?cid=5225",
+  "category": "Men / T-Shirts",
+  "currency": "USD",
+  "observation_unit": "product-color (style_id, product_id)",
+  "total_observations": 255,
+  "unique_styles_observed": 87,
+  "price_eligible_observations": 255,
+  "missing_price_observations": 0,
+  "full_price_observations": 91,
+  "discounted_observations": 164,
+  "share_discounted": 0.643137,
+  "median_discount_pct_among_discounted": 24.871597,
+  "mean_discount_pct_among_discounted": 36.738557,
+  "observations_discounted_at_least_30_pct": 76,
+  "share_discounted_at_least_30_pct": 0.298039,
+  "discount_bands": {
+    "0%": {
+      "count": 91,
+      "share_all_observations": 0.356863
+    },
+    ">0–<20%": {
+      "count": 3,
+      "share_all_observations": 0.011765
+    },
+    "20–<30%": {
+      "count": 85,
+      "share_all_observations": 0.333333
+    },
+    "30–<40%": {
+      "count": 0,
+      "share_all_observations": 0.0
+    },
+    "40–<50%": {
+      "count": 27,
+      "share_all_observations": 0.105882
+    },
+    "≥50%": {
+      "count": 49,
+      "share_all_observations": 0.192157
+    }
+  },
+  "definitions": {
+    "markdown": "100 * (original_price - current_price) / original_price",
+    "shares": "Fractions 0–1; denominator is all product-color observations, including missing-price rows.",
+    "missing_prices": "Unknown, not full-price. With missing prices, shares are confirmed discounted counts / all observations (lower bounds). Bands exclude unknowns.",
+    "averages": "Equal weight per discounted product-color observation; null if none are discounted.",
+    "rounding": "Exact rational arithmetic for classification and aggregation; output rounded to six decimal places.",
+    "promotions": "promo_text, stored discount_pct, and stored is_discounted are not used."
+  },
+  "input": {
+    "file": "observations.json",
+    "sha256": "31f6c3a3034ae6147dc6160fd85f1319520c4d4f39ac133eaebb400d4cc26066",
+    "snapshot_id": "20261002T163201578092Z-men-tshirts"
+  }
+}

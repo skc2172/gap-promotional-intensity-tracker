@@ -1,0 +1,59 @@
+{
+  "metrics_version": 1,
+  "snapshot_date": "2026-10-01",
+  "source": "gap_current",
+  "source_url": "https://www.gap.com/browse/women/t-shirts-and-tanks?cid=17076",
+  "category": "Women / T-Shirts & Tanks",
+  "currency": "USD",
+  "observation_unit": "product-color (style_id, product_id)",
+  "total_observations": 482,
+  "unique_styles_observed": 107,
+  "price_eligible_observations": 482,
+  "missing_price_observations": 0,
+  "full_price_observations": 112,
+  "discounted_observations": 370,
+  "share_discounted": 0.767635,
+  "median_discount_pct_among_discounted": 31.182477,
+  "mean_discount_pct_among_discounted": 36.163732,
+  "observations_discounted_at_least_30_pct": 186,
+  "share_discounted_at_least_30_pct": 0.385892,
+  "discount_bands": {
+    "0%": {
+      "count": 112,
+      "share_all_observations": 0.232365
+    },
+    ">0–<20%": {
+      "count": 23,
+      "share_all_observations": 0.047718
+    },
+    "20–<30%": {
+      "count": 161,
+      "share_all_observations": 0.334025
+    },
+    "30–<40%": {
+      "count": 36,
+      "share_all_observations": 0.074689
+    },
+    "40–<50%": {
+      "count": 61,
+      "share_all_observations": 0.126556
+    },
+    "≥50%": {
+      "count": 89,
+      "share_all_observations": 0.184647
+    }
+  },
+  "definitions": {
+    "markdown": "100 * (original_price - current_price) / original_price",
+    "shares": "Fractions 0–1; denominator is all product-color observations, including missing-price rows.",
+    "missing_prices": "Unknown, not full-price. With missing prices, shares are confirmed discounted counts / all observations (lower bounds). Bands exclude unknowns.",
+    "averages": "Equal weight per discounted product-color observation; null if none are discounted.",
+    "rounding": "Exact rational arithmetic for classification and aggregation; output rounded to six decimal places.",
+    "promotions": "promo_text, stored discount_pct, and stored is_discounted are not used."
+  },
+  "input": {
+    "file": "observations.json",
+    "sha256": "e87ae95f7333ac13072dc0935d2861da7b53e2d4e5b89041c68c5f50d6809de7",
+    "snapshot_id": "20261001T032020040886Z-women-tshirts-tanks"
+  }
+}

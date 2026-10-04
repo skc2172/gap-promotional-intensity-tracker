@@ -1,0 +1,86 @@
+{
+  "raw_snapshot": "data/raw/20260929T192922274927Z-women-jeans",
+  "parser_version": 4,
+  "schema_version": 2,
+  "observation_unit": "listed product-color ID; not unique style or size SKU",
+  "products_captured": 378,
+  "unique_styles": 104,
+  "category": "Women / Jeans",
+  "category_id": "5664",
+  "department_id": "136",
+  "price_coverage": 1.0,
+  "api_total_colors": "450",
+  "pagination": {
+    "pageSize": "200",
+    "currentPage": "0",
+    "pageNumberTotal": "3"
+  },
+  "response_personalized": true,
+  "pages_collected": 3,
+  "pages": [
+    {
+      "file": "products.json",
+      "listed_observations": 188,
+      "api_total_colors": "450",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "0",
+        "pageNumberTotal": "3"
+      }
+    },
+    {
+      "file": "products-page-1.json",
+      "listed_observations": 182,
+      "api_total_colors": "450",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "1",
+        "pageNumberTotal": "3"
+      }
+    },
+    {
+      "file": "products-page-2.json",
+      "listed_observations": 8,
+      "api_total_colors": "450",
+      "pagination": {
+        "pageSize": "200",
+        "currentPage": "2",
+        "pageNumberTotal": "3"
+      }
+    }
+  ],
+  "duplicates_removed": 0,
+  "duplicates": [],
+  "api_totals_by_page": [
+    "450",
+    "450",
+    "450"
+  ],
+  "api_total_changed_during_collection": false,
+  "api_total_minus_collected": 72,
+  "missing": {
+    "product_name": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "original_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "current_price": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "promo_text": {
+      "count": 2,
+      "rate": 0.005291005291005291
+    }
+  },
+  "limitations": [
+    "All reported pages collected; API total may differ from listed unique observations",
+    "Additional swatch records excluded unless listed in categories[].ccList",
+    "Prices are advertised category prices, not verified checkout prices",
+    "Offer text is not applied to prices; missing flags do not prove no offer",
+    "USD derives from the fixed US collection context"
+  ]
+}
